@@ -1,0 +1,12 @@
+AR decoder_2_to_4_muser_mux_to_1 behavioral C:/Users/160544C/Documents/WorkSpace/Lab_4/Mux_to_1.vhf sub00/vhpl03 1505386130
+AR or8_mxilinx_mux_to_1 behavioral C:/Users/160544C/Documents/WorkSpace/Lab_4/Mux_to_1.vhf sub00/vhpl01 1505386128
+AR mux_to_1 behavioral C:/Users/160544C/Documents/WorkSpace/Lab_4/Mux_to_1.vhf sub00/vhpl07 1505386134
+EN decoder_2_to_4_muser_decoder_3_8 NULL C:/Users/160544C/Documents/WorkSpace/Lab_4/Decoder_3_8.vhf sub00/vhpl08 1505386135
+EN mux_to_1 NULL C:/Users/160544C/Documents/WorkSpace/Lab_4/Mux_to_1.vhf sub00/vhpl06 1505386133
+EN decoder_3_8_muser_mux_to_1 NULL C:/Users/160544C/Documents/WorkSpace/Lab_4/Mux_to_1.vhf sub00/vhpl04 1505386131
+EN decoder_2_to_4_muser_mux_to_1 NULL C:/Users/160544C/Documents/WorkSpace/Lab_4/Mux_to_1.vhf sub00/vhpl02 1505386129
+AR decoder_3_8 behavioral C:/Users/160544C/Documents/WorkSpace/Lab_4/Decoder_3_8.vhf sub00/vhpl11 1505386138
+EN decoder_3_8 NULL C:/Users/160544C/Documents/WorkSpace/Lab_4/Decoder_3_8.vhf sub00/vhpl10 1505386137
+EN or8_mxilinx_mux_to_1 NULL C:/Users/160544C/Documents/WorkSpace/Lab_4/Mux_to_1.vhf sub00/vhpl00 1505386127
+AR decoder_2_to_4_muser_decoder_3_8 behavioral C:/Users/160544C/Documents/WorkSpace/Lab_4/Decoder_3_8.vhf sub00/vhpl09 1505386136
+AR decoder_3_8_muser_mux_to_1 behavioral C:/Users/160544C/Documents/WorkSpace/Lab_4/Mux_to_1.vhf sub00/vhpl05 1505386132

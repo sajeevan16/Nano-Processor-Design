@@ -1,0 +1,3 @@
+vhdl work "Reg_4.vhf"
+vhdl work "AU.vhf"
+vhdl work "AU_TB.vhd"

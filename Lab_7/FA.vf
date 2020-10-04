@@ -1,0 +1,70 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : FA.vf
+// /___/   /\     Timestamp : 11/17/2016 15:28:42
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog "C:/Documents and Settings/150648N/Desktop/Lab7/FA.vf" -w "C:/Documents and Settings/150648N/Desktop/Lab7/FA.sch"
+//Design Name: FA
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module HA_MUSER_FA(A, 
+                   B, 
+                   C, 
+                   S);
+
+    input A;
+    input B;
+   output C;
+   output S;
+   
+   
+   XOR2  XLXI_1 (.I0(B), 
+                .I1(A), 
+                .O(S));
+   AND2  XLXI_2 (.I0(B), 
+                .I1(A), 
+                .O(C));
+endmodule
+`timescale 1ns / 1ps
+
+module FA(A, 
+          B, 
+          C_in, 
+          C_out, 
+          S);
+
+    input A;
+    input B;
+    input C_in;
+   output C_out;
+   output S;
+   
+   wire XLXN_1;
+   wire XLXN_7;
+   wire XLXN_9;
+   
+   HA_MUSER_FA  XLXI_1 (.A(A), 
+                       .B(B), 
+                       .C(XLXN_9), 
+                       .S(XLXN_1));
+   HA_MUSER_FA  XLXI_2 (.A(XLXN_1), 
+                       .B(C_in), 
+                       .C(XLXN_7), 
+                       .S(S));
+   OR2  XLXI_3 (.I0(XLXN_9), 
+               .I1(XLXN_7), 
+               .O(C_out));
+endmodule

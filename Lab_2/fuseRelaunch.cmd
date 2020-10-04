@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/160544C/Documents/WorkSpace/Lab2/Circuit2_Circuit2_sch_tb_isim_beh.exe" -prj "C:/Users/160544C/Documents/WorkSpace/Lab2/Circuit2_Circuit2_sch_tb_beh.prj" "work.Circuit2_Circuit2_sch_tb" 

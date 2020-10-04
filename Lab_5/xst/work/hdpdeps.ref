@@ -1,0 +1,17 @@
+V3 12
+FL C:/Users/160400H/Documents/WorkSpace/Lab_5/bit_3_counter.vhf 2017/09/21.14:37:28 P.20131013
+EN work/bit_3_counter 1505987266 \
+      FL C:/Users/160400H/Documents/WorkSpace/Lab_5/bit_3_counter.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/bit_3_counter/BEHAVIORAL 1505987267 \
+      FL C:/Users/160400H/Documents/WorkSpace/Lab_5/bit_3_counter.vhf \
+      EN work/bit_3_counter 1505987266 CP FD CP OR2 CP AND2 CP INV
+FL C:/Users/160400H/Documents/WorkSpace/Lab_5/TB_bit_3_counter.vhd 2017/09/21.14:50:04 P.20131013
+EN work/bit_3_counter_bit_3_counter_sch_tb 0 \
+      FL C:/Users/160400H/Documents/WorkSpace/Lab_5/TB_bit_3_counter.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/bit_3_counter_bit_3_counter_sch_tb/behavioral 0 \
+      FL C:/Users/160400H/Documents/WorkSpace/Lab_5/TB_bit_3_counter.vhd \
+      EN work/bit_3_counter_bit_3_counter_sch_tb 0 CP bit_3_counter

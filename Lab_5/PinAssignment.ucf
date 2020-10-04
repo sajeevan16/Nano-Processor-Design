@@ -1,0 +1,6 @@
+NET "C" LOC = "G12";
+NET "B" LOC = "P11";
+NET "Q0" LOC = "M5";
+NET "Q1" LOC = "M11";
+NET "Q2" LOC = "P7";
+NET "C" CLOCK_DEDICATED_ROUTE = FALSE; 

@@ -1,0 +1,47 @@
+V3 25
+FL C:/Users/160544C/Documents/WorkSpace/Lab_4/Decoder_3_8.vhf 2017/09/14.16:18:43 P.20131013
+EN work/Decoder_2_to_4_MUSER_Decoder_3_8 1505386135 \
+      FL C:/Users/160544C/Documents/WorkSpace/Lab_4/Decoder_3_8.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Decoder_2_to_4_MUSER_Decoder_3_8/BEHAVIORAL 1505386136 \
+      FL C:/Users/160544C/Documents/WorkSpace/Lab_4/Decoder_3_8.vhf \
+      EN work/Decoder_2_to_4_MUSER_Decoder_3_8 1505386135 CP AND3 CP INV
+EN work/Decoder_3_8 1505386137 \
+      FL C:/Users/160544C/Documents/WorkSpace/Lab_4/Decoder_3_8.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Decoder_3_8/BEHAVIORAL 1505386138 \
+      FL C:/Users/160544C/Documents/WorkSpace/Lab_4/Decoder_3_8.vhf \
+      EN work/Decoder_3_8 1505386137 CP Decoder_2_to_4_MUSER_Decoder_3_8 CP INV \
+      CP AND2
+FL C:/Users/160544C/Documents/WorkSpace/Lab_4/Mux_to_1.vhf 2017/09/14.16:18:43 P.20131013
+EN work/OR8_MXILINX_Mux_to_1 1505386127 \
+      FL C:/Users/160544C/Documents/WorkSpace/Lab_4/Mux_to_1.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/OR8_MXILINX_Mux_to_1/BEHAVIORAL 1505386128 \
+      FL C:/Users/160544C/Documents/WorkSpace/Lab_4/Mux_to_1.vhf \
+      EN work/OR8_MXILINX_Mux_to_1 1505386127 CP FMAP CP OR2 CP OR4
+EN work/Decoder_2_to_4_MUSER_Mux_to_1 1505386129 \
+      FL C:/Users/160544C/Documents/WorkSpace/Lab_4/Mux_to_1.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Decoder_2_to_4_MUSER_Mux_to_1/BEHAVIORAL 1505386130 \
+      FL C:/Users/160544C/Documents/WorkSpace/Lab_4/Mux_to_1.vhf \
+      EN work/Decoder_2_to_4_MUSER_Mux_to_1 1505386129 CP AND3 CP INV
+EN work/Decoder_3_8_MUSER_Mux_to_1 1505386131 \
+      FL C:/Users/160544C/Documents/WorkSpace/Lab_4/Mux_to_1.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Decoder_3_8_MUSER_Mux_to_1/BEHAVIORAL 1505386132 \
+      FL C:/Users/160544C/Documents/WorkSpace/Lab_4/Mux_to_1.vhf \
+      EN work/Decoder_3_8_MUSER_Mux_to_1 1505386131 \
+      CP Decoder_2_to_4_MUSER_Mux_to_1 CP INV CP AND2
+EN work/Mux_to_1 1505386133 \
+      FL C:/Users/160544C/Documents/WorkSpace/Lab_4/Mux_to_1.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Mux_to_1/BEHAVIORAL 1505386134 \
+      FL C:/Users/160544C/Documents/WorkSpace/Lab_4/Mux_to_1.vhf EN work/Mux_to_1 1505386133 \
+      CP Decoder_3_8_MUSER_Mux_to_1 CP AND2 CP OR8_MXILINX_Mux_to_1

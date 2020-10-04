@@ -1,0 +1,5 @@
+vhdl work "HA.vhf"
+vhdl work "FA.vhf"
+vhdl work "Reg_4.vhf"
+vhdl work "RCA4bi.vhf"
+vhdl work "AU.vhf"

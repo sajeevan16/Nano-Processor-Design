@@ -1,0 +1,2 @@
+vhdl isim_temp "LUT_TB.vhd"
+verilog isim_temp "C:/Xilinx_14.7/14.7/ISE_DS/ISE//verilog/src/glbl.v"

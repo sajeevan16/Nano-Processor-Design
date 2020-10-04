@@ -1,0 +1,3 @@
+vhdl isim_temp "Reg_4.vhf"
+vhdl isim_temp "AU.vhf"
+vhdl isim_temp "AU_TB.vhd"

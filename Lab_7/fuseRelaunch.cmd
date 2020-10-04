@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "E:/Semister_2/150648N Semi_2/Computer Architecture/Practicals/Lab7/Lab7/LUT_LUT_sch_tb_isim_beh.exe" -prj "E:/Semister_2/150648N Semi_2/Computer Architecture/Practicals/Lab7/Lab7/LUT_LUT_sch_tb_beh.prj" "work.LUT_LUT_sch_tb" "work.glbl" 

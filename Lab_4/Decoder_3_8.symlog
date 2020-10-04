@@ -1,0 +1,11 @@
+select figure at -190 -208 8
+select figure at 143 -236 8
+select figure at -6 -281 8
+select figure at -3 -287 8
+select figure at 17 -244 8
+select figure at 228 -348 8
+select all in 228 -419 252 -348 -enclosed
+select figure at -180 -397 8
+select figure at 385 -649 8
+select all in 385 -649 406 88 -enclosed
+select figure at 396 -42 8

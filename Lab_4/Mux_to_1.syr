@@ -1,0 +1,343 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Reading design: Mux_to_1.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Mux_to_1.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Mux_to_1"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-cp132
+
+---- Source Options
+Top Module Name                    : Mux_to_1
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/160544C/Documents/WorkSpace/Lab_4/Mux_to_1.vhf" in Library work.
+Entity <or8_mxilinx_mux_to_1> compiled.
+Entity <or8_mxilinx_mux_to_1> (Architecture <behavioral>) compiled.
+Entity <decoder_2_to_4_muser_mux_to_1> compiled.
+Entity <decoder_2_to_4_muser_mux_to_1> (Architecture <behavioral>) compiled.
+Entity <decoder_3_8_muser_mux_to_1> compiled.
+Entity <decoder_3_8_muser_mux_to_1> (Architecture <behavioral>) compiled.
+Entity <mux_to_1> compiled.
+Entity <mux_to_1> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/160544C/Documents/WorkSpace/Lab_4/Decoder_3_8.vhf" in Library work.
+Entity <decoder_2_to_4_muser_decoder_3_8> compiled.
+Entity <decoder_2_to_4_muser_decoder_3_8> (Architecture <behavioral>) compiled.
+Entity <decoder_3_8> compiled.
+Entity <decoder_3_8> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Mux_to_1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Decoder_3_8_MUSER_Mux_to_1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <OR8_MXILINX_Mux_to_1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Decoder_2_to_4_MUSER_Mux_to_1> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Mux_to_1> in library <work> (Architecture <behavioral>).
+    Set user-defined property "HU_SET =  XLXI_11_0" for instance <XLXI_11> in unit <Mux_to_1>.
+Entity <Mux_to_1> analyzed. Unit <Mux_to_1> generated.
+
+Analyzing Entity <Decoder_3_8_MUSER_Mux_to_1> in library <work> (Architecture <behavioral>).
+Entity <Decoder_3_8_MUSER_Mux_to_1> analyzed. Unit <Decoder_3_8_MUSER_Mux_to_1> generated.
+
+Analyzing Entity <Decoder_2_to_4_MUSER_Mux_to_1> in library <work> (Architecture <behavioral>).
+Entity <Decoder_2_to_4_MUSER_Mux_to_1> analyzed. Unit <Decoder_2_to_4_MUSER_Mux_to_1> generated.
+
+Analyzing Entity <OR8_MXILINX_Mux_to_1> in library <work> (Architecture <behavioral>).
+    Set user-defined property "RLOC =  X0Y1" for instance <I_36_91> in unit <OR8_MXILINX_Mux_to_1>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_116> in unit <OR8_MXILINX_Mux_to_1>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_117> in unit <OR8_MXILINX_Mux_to_1>.
+Entity <OR8_MXILINX_Mux_to_1> analyzed. Unit <OR8_MXILINX_Mux_to_1> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <OR8_MXILINX_Mux_to_1>.
+    Related source file is "C:/Users/160544C/Documents/WorkSpace/Lab_4/Mux_to_1.vhf".
+WARNING:Xst:653 - Signal <dummy> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <OR8_MXILINX_Mux_to_1> synthesized.
+
+
+Synthesizing Unit <Decoder_2_to_4_MUSER_Mux_to_1>.
+    Related source file is "C:/Users/160544C/Documents/WorkSpace/Lab_4/Mux_to_1.vhf".
+Unit <Decoder_2_to_4_MUSER_Mux_to_1> synthesized.
+
+
+Synthesizing Unit <Decoder_3_8_MUSER_Mux_to_1>.
+    Related source file is "C:/Users/160544C/Documents/WorkSpace/Lab_4/Mux_to_1.vhf".
+Unit <Decoder_3_8_MUSER_Mux_to_1> synthesized.
+
+
+Synthesizing Unit <Mux_to_1>.
+    Related source file is "C:/Users/160544C/Documents/WorkSpace/Lab_4/Mux_to_1.vhf".
+Unit <Mux_to_1> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Mux_to_1> ...
+
+Optimizing unit <OR8_MXILINX_Mux_to_1> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Mux_to_1, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Mux_to_1.ngr
+Top Level Output File Name         : Mux_to_1
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 13
+
+Cell Usage :
+# BELS                             : 27
+#      AND2                        : 10
+#      AND3                        : 8
+#      GND                         : 1
+#      INV                         : 5
+#      OR2                         : 1
+#      OR4                         : 2
+# IO Buffers                       : 13
+#      IBUF                        : 12
+#      OBUF                        : 1
+# Others                           : 3
+#      FMAP                        : 3
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-4 
+
+ Number of Slices:                        3  out of    960     0%  
+ Number of 4 input LUTs:                  5  out of   1920     0%  
+ Number of IOs:                          13
+ Number of bonded IOBs:                  13  out of     83    15%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 11.848ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 40 / 1
+-------------------------------------------------------------------------
+Delay:               11.848ns (Levels of Logic = 9)
+  Source:            S2 (PAD)
+  Destination:       Y (PAD)
+
+  Data Path: S2 to Y
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.218   0.447  S2_IBUF (S2_IBUF)
+     INV:I->O              1   0.704   0.420  XLXI_2/XLXI_3 (XLXI_2/XLXN_69)
+     AND2:I1->O            4   0.704   0.587  XLXI_2/XLXI_9 (XLXI_2/XLXN_66)
+     AND3:I0->O            1   0.704   0.420  XLXI_2/XLXI_1/XLXI_1 (XLXN_3)
+     AND2:I0->O            1   0.704   0.420  XLXI_3 (XLXN_21)
+     begin scope: 'XLXI_11'
+     OR4:I3->O             1   0.704   0.420  I_36_95 (S1)
+     OR2:I1->O             1   0.704   0.420  I_36_94 (O_DUMMY)
+     end scope: 'XLXI_11'
+     OBUF:I->O                 3.272          Y_OBUF (Y)
+    ----------------------------------------
+    Total                     11.848ns (8.714ns logic, 3.134ns route)
+                                       (73.5% logic, 26.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.96 secs
+ 
+--> 
+
+Total memory usage is 282208 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

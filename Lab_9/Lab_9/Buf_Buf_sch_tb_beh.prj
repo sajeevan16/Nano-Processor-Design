@@ -1,0 +1,2 @@
+vhdl work "Buf.vhf"
+vhdl work "Buf_TB.vhd"

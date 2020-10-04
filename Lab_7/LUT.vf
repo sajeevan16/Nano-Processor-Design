@@ -1,0 +1,83 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : LUT.vf
+// /___/   /\     Timestamp : 11/23/2016 11:42:39
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog "C:/Vahe/150648N Semi_2/Computer Architecture/Practicals/Lab7/LUT.vf" -w "C:/Vahe/150648N Semi_2/Computer Architecture/Practicals/Lab7/LUT.sch"
+//Design Name: LUT
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module LUT(A0, 
+           A1, 
+           A2, 
+           A3, 
+           A, 
+           B, 
+           C, 
+           D, 
+           E, 
+           F, 
+           G);
+
+    input A0;
+    input A1;
+    input A2;
+    input A3;
+   output A;
+   output B;
+   output C;
+   output D;
+   output E;
+   output F;
+   output G;
+   
+   
+   ROM16X1 #( .INIT(16'h2812) ) XLXI_1 (.A0(A0), 
+                   .A1(A1), 
+                   .A2(A2), 
+                   .A3(A3), 
+                   .O(A));
+   ROM16X1 #( .INIT(16'hD860) ) XLXI_2 (.A0(A0), 
+                   .A1(A1), 
+                   .A2(A2), 
+                   .A3(A3), 
+                   .O(B));
+   ROM16X1 #( .INIT(16'hD004) ) XLXI_3 (.A0(A0), 
+                   .A1(A1), 
+                   .A2(A2), 
+                   .A3(A3), 
+                   .O(C));
+   ROM16X1 #( .INIT(16'h8492) ) XLXI_4 (.A0(A0), 
+                   .A1(A1), 
+                   .A2(A2), 
+                   .A3(A3), 
+                   .O(D));
+   ROM16X1 #( .INIT(16'h02BA) ) XLXI_5 (.A0(A0), 
+                   .A1(A1), 
+                   .A2(A2), 
+                   .A3(A3), 
+                   .O(E));
+   ROM16X1 #( .INIT(16'h208E) ) XLXI_6 (.A0(A0), 
+                   .A1(A1), 
+                   .A2(A2), 
+                   .A3(A3), 
+                   .O(F));
+   ROM16X1 #( .INIT(16'h1083) ) XLXI_7 (.A0(A0), 
+                   .A1(A1), 
+                   .A2(A2), 
+                   .A3(A3), 
+                   .O(G));
+endmodule

@@ -1,0 +1,20 @@
+NET "X0" LOC = "P11";
+NET "X1" LOC = "L3";
+NET "X2" LOC = "K3";
+NET "X3" LOC = "B4";
+NET "Z" LOC = "G1";
+NET "C_out" LOC = "P4";
+NET "RegSel" LOC = "N3";
+NET "Clock" LOC = "G12";
+NET "A" LOC = "L14";
+NET "B" LOC = "H12";
+NET "C" LOC = "N14";
+NET "D" LOC = "N11";
+NET "E" LOC = "P12";
+NET "F" LOC = "L13";
+NET "G" LOC = "M12";
+NET "an0" LOC = "K14";
+NET "an1" LOC = "M13";
+NET "an2" LOC = "J12";
+NET "an3" LOC = "F12";
+

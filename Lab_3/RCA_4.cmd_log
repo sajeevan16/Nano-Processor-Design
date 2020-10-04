@@ -1,0 +1,37 @@
+xst -intstyle ise -ifn "C:/Users/160544C/Lab_3/RCA_4.xst" -ofn "C:/Users/160544C/Lab_3/RCA_4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 RCA_4.ngc RCA_4.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o RCA_4_map.ncd RCA_4.ngd RCA_4.pcf 
+par -w -intstyle ise -ol high -t 1 RCA_4_map.ncd RCA_4.ncd RCA_4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml RCA_4.twx RCA_4.ncd -o RCA_4.twr RCA_4.pcf 
+bitgen -intstyle ise -f RCA_4.ut RCA_4.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 RCA_4.ngc RCA_4.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o RCA_4_map.ncd RCA_4.ngd RCA_4.pcf 
+par -w -intstyle ise -ol high -t 1 RCA_4_map.ncd RCA_4.ncd RCA_4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml RCA_4.twx RCA_4.ncd -o RCA_4.twr RCA_4.pcf 
+bitgen -intstyle ise -f RCA_4.ut RCA_4.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignment.ucf -p xc3s100e-cp132-4 RCA_4.ngc RCA_4.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignment.ucf -p xc3s100e-cp132-4 RCA_4.ngc RCA_4.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignment.ucf -p xc3s100e-cp132-4 RCA_4.ngc RCA_4.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignment.ucf -p xc3s100e-cp132-4 RCA_4.ngc RCA_4.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o RCA_4_map.ncd RCA_4.ngd RCA_4.pcf 
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o RCA_4_map.ncd RCA_4.ngd RCA_4.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignment.ucf -p xc3s100e-cp132-4 RCA_4.ngc RCA_4.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o RCA_4_map.ncd RCA_4.ngd RCA_4.pcf 
+par -w -intstyle ise -ol high -t 1 RCA_4_map.ncd RCA_4.ncd RCA_4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml RCA_4.twx RCA_4.ncd -o RCA_4.twr RCA_4.pcf -ucf PinAssignment.ucf 
+bitgen -intstyle ise -f RCA_4.ut RCA_4.ncd 
+bitgen -intstyle ise -f RCA_4.ut RCA_4.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignment.ucf -p xc3s100e-cp132-4 RCA_4.ngc RCA_4.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o RCA_4_map.ncd RCA_4.ngd RCA_4.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignment.ucf -p xc3s100e-cp132-4 RCA_4.ngc RCA_4.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o RCA_4_map.ncd RCA_4.ngd RCA_4.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignment.ucf -p xc3s100e-cp132-4 RCA_4.ngc RCA_4.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o RCA_4_map.ncd RCA_4.ngd RCA_4.pcf 
+par -w -intstyle ise -ol high -t 1 RCA_4_map.ncd RCA_4.ncd RCA_4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml RCA_4.twx RCA_4.ncd -o RCA_4.twr RCA_4.pcf -ucf PinAssignment.ucf 
+bitgen -intstyle ise -f RCA_4.ut RCA_4.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignment.ucf -p xc3s100e-cp132-4 RCA_4.ngc RCA_4.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o RCA_4_map.ncd RCA_4.ngd RCA_4.pcf 
+par -w -intstyle ise -ol high -t 1 RCA_4_map.ncd RCA_4.ncd RCA_4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml RCA_4.twx RCA_4.ncd -o RCA_4.twr RCA_4.pcf -ucf PinAssignment.ucf 
+bitgen -intstyle ise -f RCA_4.ut RCA_4.ncd 

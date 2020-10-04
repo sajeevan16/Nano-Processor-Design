@@ -1,0 +1,2 @@
+vhdl work "bit_3_counter.vhf"
+vhdl work "TB_bit_3_counter.vhd"

@@ -1,0 +1,28 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/160544C/Lab_3/RCA_4_RCA_4_sch_tb_isim_beh.exe -prj C:/Users/160544C/Lab_3/RCA_4_RCA_4_sch_tb_beh.prj work.RCA_4_RCA_4_sch_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/160544C/Lab_3/HA.vhf" into library work
+Parsing VHDL file "C:/Users/160544C/Lab_3/FA.vhf" into library work
+Parsing VHDL file "C:/Users/160544C/Lab_3/RCA_4.vhf" into library work
+Parsing VHDL file "C:/Users/160544C/Lab_3/TB_RCA_4.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture xor2_v of entity XOR2 [xor2_default]
+Compiling architecture behavioral of entity HA_MUSER_RCA_4 [ha_muser_rca_4_default]
+Compiling architecture or2_v of entity OR2 [or2_default]
+Compiling architecture behavioral of entity FA_MUSER_RCA_4 [fa_muser_rca_4_default]
+Compiling architecture behavioral of entity RCA_4 [rca_4_default]
+Compiling architecture behavioral of entity rca_4_rca_4_sch_tb
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 17 VHDL Units
+Built simulation executable C:/Users/160544C/Lab_3/RCA_4_RCA_4_sch_tb_isim_beh.exe
+Fuse Memory Usage: 46608 KB
+Fuse CPU Usage: 561 ms

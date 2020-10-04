@@ -1,0 +1,2 @@
+vhdl isim_temp "Buf.vhf"
+vhdl isim_temp "Buf_TB.vhd"

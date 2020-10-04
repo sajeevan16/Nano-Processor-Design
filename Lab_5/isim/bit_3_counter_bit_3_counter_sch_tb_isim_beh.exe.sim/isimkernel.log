@@ -1,0 +1,29 @@
+Command line:
+   bit_3_counter_bit_3_counter_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  57673
+
+Mon Oct 02 21:09:30 2017
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 374.616 Meg
+
+ Total Signals          : 95
+ Total Nets             : 48
+ Total Signal Drivers   : 23
+ Total Blocks           : 20
+ Total Primitive Blocks : 18
+ Total Processes        : 22
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 534
+Total Line Count : 66
+
+ Total Simulation Time: 0.328125 sec
+
+ Current Memory Usage: 374.616 Meg
+
+Mon Oct 02 21:09:57 2017
+

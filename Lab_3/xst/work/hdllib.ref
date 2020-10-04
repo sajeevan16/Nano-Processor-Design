@@ -1,0 +1,12 @@
+AR ha_muser_fa behavioral C:/Users/160544C/Lab_3/FA.vhf sub00/vhpl07 1504778355
+EN fa NULL C:/Users/160544C/Lab_3/FA.vhf sub00/vhpl08 1504778356
+EN ha NULL C:/Users/160544C/Lab_3/HA.vhf sub00/vhpl10 1504778358
+AR ha_muser_rca_4 behavioral C:/Users/160544C/Lab_3/RCA_4.vhf sub00/vhpl01 1504778349
+AR rca_4 behavioral C:/Users/160544C/Lab_3/RCA_4.vhf sub00/vhpl05 1504778353
+AR ha behavioral C:/Users/160544C/Lab_3/HA.vhf sub00/vhpl11 1504778359
+EN fa_muser_rca_4 NULL C:/Users/160544C/Lab_3/RCA_4.vhf sub00/vhpl02 1504778350
+EN rca_4 NULL C:/Users/160544C/Lab_3/RCA_4.vhf sub00/vhpl04 1504778352
+EN ha_muser_fa NULL C:/Users/160544C/Lab_3/FA.vhf sub00/vhpl06 1504778354
+AR fa behavioral C:/Users/160544C/Lab_3/FA.vhf sub00/vhpl09 1504778357
+AR fa_muser_rca_4 behavioral C:/Users/160544C/Lab_3/RCA_4.vhf sub00/vhpl03 1504778351
+EN ha_muser_rca_4 NULL C:/Users/160544C/Lab_3/RCA_4.vhf sub00/vhpl00 1504778348

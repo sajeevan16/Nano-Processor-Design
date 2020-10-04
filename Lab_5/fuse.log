@@ -1,0 +1,26 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/user/Documents/Lab_5/bit_3_counter_bit_3_counter_sch_tb_isim_beh.exe -prj C:/Users/user/Documents/Lab_5/bit_3_counter_bit_3_counter_sch_tb_beh.prj work.bit_3_counter_bit_3_counter_sch_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/user/Documents/Lab_5/bit_3_counter.vhf" into library work
+Parsing VHDL file "C:/Users/user/Documents/Lab_5/TB_bit_3_counter.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture fd_v of entity FD [\FD('0')\]
+Compiling architecture or2_v of entity OR2 [or2_default]
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture behavioral of entity bit_3_counter [bit_3_counter_default]
+Compiling architecture behavioral of entity bit_3_counter_bit_3_counter_sch_...
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\bit_3_counter_bit_3_counter_sch_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 15 VHDL Units
+Built simulation executable C:/Users/user/Documents/Lab_5/bit_3_counter_bit_3_counter_sch_tb_isim_beh.exe
+Fuse Memory Usage: 50760 KB
+Fuse CPU Usage: 733 ms

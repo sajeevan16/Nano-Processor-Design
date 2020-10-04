@@ -1,0 +1,26 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Nov 17 16:23:10 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "C_out" LOCATE = SITE "P4" LEVEL 1;
+COMP "X0" LOCATE = SITE "P11" LEVEL 1;
+COMP "X1" LOCATE = SITE "L3" LEVEL 1;
+COMP "X2" LOCATE = SITE "K3" LEVEL 1;
+COMP "X3" LOCATE = SITE "B4" LEVEL 1;
+COMP "an0" LOCATE = SITE "K14" LEVEL 1;
+COMP "RegSel" LOCATE = SITE "N3" LEVEL 1;
+COMP "an1" LOCATE = SITE "M13" LEVEL 1;
+COMP "an2" LOCATE = SITE "J12" LEVEL 1;
+COMP "an3" LOCATE = SITE "F12" LEVEL 1;
+COMP "Clock" LOCATE = SITE "G12" LEVEL 1;
+COMP "A" LOCATE = SITE "L14" LEVEL 1;
+COMP "B" LOCATE = SITE "H12" LEVEL 1;
+COMP "C" LOCATE = SITE "N14" LEVEL 1;
+COMP "D" LOCATE = SITE "N11" LEVEL 1;
+COMP "E" LOCATE = SITE "P12" LEVEL 1;
+COMP "F" LOCATE = SITE "L13" LEVEL 1;
+COMP "G" LOCATE = SITE "M12" LEVEL 1;
+COMP "Z" LOCATE = SITE "G1" LEVEL 1;
+SCHEMATIC END;
+

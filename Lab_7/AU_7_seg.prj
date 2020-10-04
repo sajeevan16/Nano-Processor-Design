@@ -1,0 +1,6 @@
+verilog work "HA.vf"
+verilog work "FA.vf"
+verilog work "RCA.vf"
+verilog work "LUT.vf"
+verilog work "AU.vf"
+verilog work "AU_7_seg.vf"

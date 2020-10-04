@@ -1,0 +1,33 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/160400H/lab6/AU_AU_sch_tb_isim_beh.exe -prj C:/Users/160400H/lab6/AU_AU_sch_tb_beh.prj work.AU_AU_sch_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/160400H/lab6/Reg_4.vhf" into library work
+Parsing VHDL file "C:/Users/160400H/lab6/AU.vhf" into library work
+Parsing VHDL file "C:/Users/160400H/lab6/AU_TB.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture fd_v of entity FD [\FD('0')\]
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture behavioral of entity Reg_4_MUSER_AU [reg_4_muser_au_default]
+Compiling architecture xor2_v of entity XOR2 [xor2_default]
+Compiling architecture behavioral of entity HA_MUSER_AU [ha_muser_au_default]
+Compiling architecture or2_v of entity OR2 [or2_default]
+Compiling architecture behavioral of entity FA_MUSER_AU [fa_muser_au_default]
+Compiling architecture or5_v of entity OR5 [or5_default]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture gnd_v of entity GND [gnd_default]
+Compiling architecture behavioral of entity RCA_4_MUSER_AU [rca_4_muser_au_default]
+Compiling architecture behavioral of entity AU [au_default]
+Compiling architecture behavioral of entity au_au_sch_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 29 VHDL Units
+Built simulation executable C:/Users/160400H/lab6/AU_AU_sch_tb_isim_beh.exe
+Fuse Memory Usage: 46812 KB
+Fuse CPU Usage: 529 ms

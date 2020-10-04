@@ -1,0 +1,145 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : RCA.vf
+// /___/   /\     Timestamp : 11/17/2016 15:28:42
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog "C:/Documents and Settings/150648N/Desktop/Lab7/RCA.vf" -w "C:/Documents and Settings/150648N/Desktop/Lab7/RCA.sch"
+//Design Name: RCA
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module HA_MUSER_RCA(A, 
+                    B, 
+                    C, 
+                    S);
+
+    input A;
+    input B;
+   output C;
+   output S;
+   
+   
+   XOR2  XLXI_1 (.I0(B), 
+                .I1(A), 
+                .O(S));
+   AND2  XLXI_2 (.I0(B), 
+                .I1(A), 
+                .O(C));
+endmodule
+`timescale 1ns / 1ps
+
+module FA_MUSER_RCA(A, 
+                    B, 
+                    C_in, 
+                    C_out, 
+                    S);
+
+    input A;
+    input B;
+    input C_in;
+   output C_out;
+   output S;
+   
+   wire XLXN_1;
+   wire XLXN_7;
+   wire XLXN_9;
+   
+   HA_MUSER_RCA  XLXI_1 (.A(A), 
+                        .B(B), 
+                        .C(XLXN_9), 
+                        .S(XLXN_1));
+   HA_MUSER_RCA  XLXI_2 (.A(XLXN_1), 
+                        .B(C_in), 
+                        .C(XLXN_7), 
+                        .S(S));
+   OR2  XLXI_3 (.I0(XLXN_9), 
+               .I1(XLXN_7), 
+               .O(C_out));
+endmodule
+`timescale 1ns / 1ps
+
+module RCA(A0, 
+           A1, 
+           A2, 
+           A3, 
+           B0, 
+           B1, 
+           B2, 
+           B3, 
+           C_out, 
+           S0, 
+           S1, 
+           S2, 
+           S3, 
+           Z_out);
+
+    input A0;
+    input A1;
+    input A2;
+    input A3;
+    input B0;
+    input B1;
+    input B2;
+    input B3;
+   output C_out;
+   output S0;
+   output S1;
+   output S2;
+   output S3;
+   output Z_out;
+   
+   wire XLXN_5;
+   wire XLXN_7;
+   wire XLXN_11;
+   wire XLXN_27;
+   wire C_out_DUMMY;
+   wire S0_DUMMY;
+   wire S1_DUMMY;
+   wire S2_DUMMY;
+   wire S3_DUMMY;
+   
+   assign C_out = C_out_DUMMY;
+   assign S0 = S0_DUMMY;
+   assign S1 = S1_DUMMY;
+   assign S2 = S2_DUMMY;
+   assign S3 = S3_DUMMY;
+   FA_MUSER_RCA  XLXI_1 (.A(A0), 
+                        .B(B0), 
+                        .C_in(XLXN_27), 
+                        .C_out(XLXN_5), 
+                        .S(S0_DUMMY));
+   FA_MUSER_RCA  XLXI_2 (.A(A1), 
+                        .B(B1), 
+                        .C_in(XLXN_5), 
+                        .C_out(XLXN_7), 
+                        .S(S1_DUMMY));
+   FA_MUSER_RCA  XLXI_3 (.A(A2), 
+                        .B(B2), 
+                        .C_in(XLXN_7), 
+                        .C_out(XLXN_11), 
+                        .S(S2_DUMMY));
+   FA_MUSER_RCA  XLXI_4 (.A(A3), 
+                        .B(B3), 
+                        .C_in(XLXN_11), 
+                        .C_out(C_out_DUMMY), 
+                        .S(S3_DUMMY));
+   GND  XLXI_5 (.G(XLXN_27));
+   NOR5  XLXI_7 (.I0(C_out_DUMMY), 
+                .I1(S3_DUMMY), 
+                .I2(S2_DUMMY), 
+                .I3(S1_DUMMY), 
+                .I4(S0_DUMMY), 
+                .O(Z_out));
+endmodule

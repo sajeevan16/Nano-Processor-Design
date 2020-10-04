@@ -1,0 +1,29 @@
+Command line:
+   RCA_4_RCA_4_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49813
+
+Thu Sep 07 15:22:27 2017
+
+
+ Elaboration Time: 0.0312 sec
+
+ Current Memory Usage: 666.62 Meg
+
+ Total Signals          : 180
+ Total Nets             : 54
+ Total Signal Drivers   : 29
+ Total Blocks           : 37
+ Total Primitive Blocks : 23
+ Total Processes        : 21
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 537
+Total Line Count : 93
+
+ Total Simulation Time: 0.171602 sec
+
+ Current Memory Usage: 666.62 Meg
+
+Thu Sep 07 15:27:43 2017
+

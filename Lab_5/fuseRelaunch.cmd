@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/user/Documents/Lab_5/bit_3_counter_bit_3_counter_sch_tb_isim_beh.exe" -prj "C:/Users/user/Documents/Lab_5/bit_3_counter_bit_3_counter_sch_tb_beh.prj" "work.bit_3_counter_bit_3_counter_sch_tb" 

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/160544C/Documents/WorkSpace/Lab_4/Decoder_3_8_Decoder_3_8_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="decoder_3_8_decoder_3_8_sch_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/decoder_3_8_decoder_3_8_sch_tb/i2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i2</obj_property>
+      <obj_property name="ObjectShortName">i2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decoder_3_8_decoder_3_8_sch_tb/i1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i1</obj_property>
+      <obj_property name="ObjectShortName">i1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decoder_3_8_decoder_3_8_sch_tb/i0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i0</obj_property>
+      <obj_property name="ObjectShortName">i0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decoder_3_8_decoder_3_8_sch_tb/y0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">y0</obj_property>
+      <obj_property name="ObjectShortName">y0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decoder_3_8_decoder_3_8_sch_tb/y1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">y1</obj_property>
+      <obj_property name="ObjectShortName">y1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decoder_3_8_decoder_3_8_sch_tb/y2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">y2</obj_property>
+      <obj_property name="ObjectShortName">y2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decoder_3_8_decoder_3_8_sch_tb/y3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">y3</obj_property>
+      <obj_property name="ObjectShortName">y3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decoder_3_8_decoder_3_8_sch_tb/y4" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">y4</obj_property>
+      <obj_property name="ObjectShortName">y4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decoder_3_8_decoder_3_8_sch_tb/y5" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">y5</obj_property>
+      <obj_property name="ObjectShortName">y5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decoder_3_8_decoder_3_8_sch_tb/y6" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">y6</obj_property>
+      <obj_property name="ObjectShortName">y6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decoder_3_8_decoder_3_8_sch_tb/y7" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">y7</obj_property>
+      <obj_property name="ObjectShortName">y7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/decoder_3_8_decoder_3_8_sch_tb/en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+</wave_config>

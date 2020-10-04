@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/Users/160544C/Documents/WorkSpace/Lab_1/Circuit1.xst" -ofn "C:/Users/160544C/Documents/WorkSpace/Lab_1/Circuit1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignment.ucf -p xc3s100e-cp132-4 Circuit1.ngc Circuit1.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Circuit1_map.ncd Circuit1.ngd Circuit1.pcf 
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Circuit1_map.ncd Circuit1.ngd Circuit1.pcf 
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Circuit1_map.ncd Circuit1.ngd Circuit1.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignment.ucf -p xc3s100e-cp132-4 Circuit1.ngc Circuit1.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Circuit1_map.ncd Circuit1.ngd Circuit1.pcf 
+par -w -intstyle ise -ol high -t 1 Circuit1_map.ncd Circuit1.ncd Circuit1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Circuit1.twx Circuit1.ncd -o Circuit1.twr Circuit1.pcf -ucf PinAssignment.ucf 
+bitgen -intstyle ise -f Circuit1.ut Circuit1.ncd 
+bitgen -intstyle ise -f Circuit1.ut Circuit1.ncd 
