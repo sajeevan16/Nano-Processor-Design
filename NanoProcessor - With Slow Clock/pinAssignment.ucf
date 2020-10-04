@@ -1,0 +1,23 @@
+NET "CLK" LOC = "B8";
+NET "CLR" LOC  = "A7";
+
+
+NET "A" LOC = "L14";
+NET "B" LOC = "H12";
+NET "C" LOC = "N14";
+NET "D" LOC = "N11";
+NET "E" LOC = "P12";
+NET "F" LOC = "L13";
+NET "G" LOC = "M12";
+
+NET "Seg1" LOC = "K14";
+NET "Seg2" LOC = "M13";
+NET "Seg3" LOC ="J12";
+NET "Seg4" LOC ="F12";
+
+NET "R4(3)" LOC = "M5";
+
+NET "Cout" LOC = "G1";
+NET "Zero" LOC = "P4";
+
+NET "Clk" CLOCK_DEDICATED_ROUTE = FALSE;

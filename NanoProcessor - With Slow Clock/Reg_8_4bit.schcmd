@@ -1,0 +1,221 @@
+add instance Register_4Bit 1632 400 R0 -sn=1
+add instance Register_4Bit 1632 720 R0 -sn=1
+add instance Register_4Bit 1632 1040 R0 -sn=1
+add instance Register_4Bit 1632 1360 R0 -sn=1
+add instance Register_4Bit 1632 1664 R0 -sn=1
+add instance Register_4Bit 1632 1984 R0 -sn=1
+add instance Register_4Bit 1632 2304 R0 -sn=1
+add instance Register_4Bit 1632 2624 R0 -sn=1
+BeginGroup
+add wire 2016 176 2048 176 -sn=1
+add iomarker 2048 176 0 Output Unknown -sn=1
+EndGroup
+BeginGroup
+add wire 2016 496 2048 496 -sn=1
+add iomarker 2048 496 0 Output Unknown -sn=1
+EndGroup
+BeginGroup
+add wire 2016 816 2048 816 -sn=1
+add iomarker 2048 816 0 Output Unknown -sn=1
+EndGroup
+BeginGroup
+add wire 2016 1136 2048 1136 -sn=1
+add iomarker 2048 1136 0 Output Unknown -sn=1
+EndGroup
+BeginGroup
+add wire 2016 1440 2048 1440 -sn=1
+add iomarker 2048 1440 0 Output Unknown -sn=1
+EndGroup
+BeginGroup
+add wire 2016 1760 2048 1760 -sn=1
+add iomarker 2048 1760 0 Output Unknown -sn=1
+EndGroup
+BeginGroup
+add wire 2016 2080 2048 2080 -sn=1
+add iomarker 2048 2080 0 Output Unknown -sn=1
+EndGroup
+BeginGroup
+add wire 2016 2400 2048 2400 -sn=1
+add iomarker 2048 2400 0 Output Unknown -sn=1
+EndGroup
+select figure at 2062 171 8 -branches -sn=1
+select figure at 2062 171 8 -branches -all -sn=1
+set attr NA|XLXN_1(3:0)|Name value R0(3:0) -sn=1
+select figure at 2218 481 8 -branches -sn=1
+select figure at 2218 481 8 -branches -sn=1
+select figure at 2218 481 8 -branches -all -sn=1
+set attr NA|XLXN_2(3:0)|Name value R1(3:0) -sn=1
+select figure at 2152 830 8 -branches -sn=1
+select figure at 2152 830 8 -branches -all -sn=1
+set attr NA|XLXN_3(3:0)|Name value R2(3:0) -sn=1
+select figure at 2071 1136 8 -branches -sn=1
+select figure at 2071 1136 8 -branches -all -sn=1
+set attr NA|XLXN_4(3:0)|Name value R3(3:0) -sn=1
+select figure at 2086 1434 8 -branches -sn=1
+select figure at 2086 1434 8 -branches -all -sn=1
+set attr NA|XLXN_5(3:0)|Name value R4(3:0) -sn=1
+select figure at 2092 1761 8 -branches -sn=1
+select figure at 2092 1761 8 -branches -all -sn=1
+set attr NA|XLXN_6(3:0)|Name value R5(3:0) -sn=1
+select figure at 2152 2059 8 -branches -sn=1
+select figure at 2152 2059 8 -branches -all -sn=1
+set attr NA|XLXN_7(3:0)|Name value R6(3:0) -sn=1
+select figure at 2095 2398 8 -branches -sn=1
+select figure at 2095 2398 8 -branches -all -sn=1
+set attr NA|XLXN_8(3:0)|Name value R7(3:0) -sn=1
+add autowire 1632 176 1392 176 8 -sn=1
+add bustap 1584 176 1584 80 -sn=1
+add bustap 1536 176 1536 80 -sn=1
+add bustap 1488 176 1488 80 -sn=1
+add bustap 1440 176 1440 80 -sn=1
+add instance gnd 1296 176 R0 -sn=1
+add autowire 1360 48 1440 80 8 -sn=1
+select figure at 1438 165 8 -branches -sn=1
+select figure at 1438 165 8 -branches -all -sn=1
+select all in -2147483648 -2147483648 2147483647 2147483647 -sn=1
+select all in -2147483648 -2147483648 2147483647 2147483647 -sn=1
+move selection by 16 64 -keepConn -sn=1
+select figure at 1315 349 8 -branches -sn=1
+select figure at 1380 179 8 -branches -sn=1
+delete selection -sn=1
+select figure at 1455 146 8 -branches -sn=1
+select figure at 1457 129 8 -branches -sn=1
+delete selection -sn=1
+add instance gnd 1520 -16 R180 -sn=1
+add instance gnd 1568 -16 R180 -sn=1
+add instance gnd 1616 -16 R180 -sn=1
+add instance gnd 1664 -16 R180 -sn=1
+add autowire 1600 112 1600 144 8 -sn=1
+add autowire 1552 112 1552 144 8 -sn=1
+add autowire 1504 112 1504 144 8 -sn=1
+add autowire 1456 112 1456 144 8 -sn=1
+select figure at 1428 239 8 -branches -sn=1
+select figure at 1428 239 8 -branches -all -sn=1
+set attr NA|XLXN_9(3:0)|Name value D0(3:0) -sn=1
+name branch at 1456 144 8 D0(0) -sn=1
+name branch at 1504 144 8 D0(1) -sn=1
+select figure at 1558 141 8 -branches -sn=1
+select figure at 1220 242 8 -branches -sn=1
+name branch at 1456 144 8 D0(0) -sn=1
+name branch at 1504 144 8 D0(1) -sn=1
+name branch at 1552 144 8 D0(2) -sn=1
+name branch at 1600 144 8 D0(3) -sn=1
+select figure at 1451 138 8 -branches -sn=1
+select figure at 1451 138 8 -branches -all -sn=1
+select figure at 1505 145 8 -branches -sn=1
+select figure at 1505 145 8 -branches -all -sn=1
+select figure at 1555 135 8 -branches -sn=1
+select figure at 1555 135 8 -branches -all -sn=1
+select figure at 1600 139 8 -branches -sn=1
+select figure at 1600 139 8 -branches -all -sn=1
+select figure at 1323 345 8 -branches -sn=1
+BeginGroup
+add wire 1648 368 1616 368 -sn=1
+add iomarker 1616 368 0 Input Unknown -sn=1
+EndGroup
+select figure at 1570 388 8 -branches -sn=1
+select figure at 1570 388 8 -branches -all -sn=1
+set attr NA|XLXN_25|Name value CLK -sn=1
+BeginGroup
+add wire 1648 432 1616 432 -sn=1
+add iomarker 1616 432 0 Input Unknown -sn=1
+EndGroup
+select figure at 1505 421 8 -branches -sn=1
+select figure at 1505 421 8 -branches -all -sn=1
+set attr NA|XLXN_26|Name value CLR -sn=1
+select figure at 1438 283 8 -branches -sn=1
+select all in 1438 283 1636 511 -branches -enclosed -sn=1
+move selection by -96 0 -keepConn -sn=1
+move selection by -16 0 -keepConn -sn=1
+select figure at 1425 614 8 -branches -sn=1
+add autowire 1600 368 1648 704 8 -sn=1
+select figure at 1618 699 8 -branches -sn=1
+move wire at 1600 704 1648 704 to 1600 688 1648 688 -keepConn -sn=1
+add autowire 1600 688 1648 1008 8 -sn=1
+add autowire 1600 1008 1648 1328 8 -sn=1
+add autowire 1600 1328 1648 1632 8 -sn=1
+add autowire 1600 1632 1648 1952 8 -sn=1
+add autowire 1600 1952 1648 2272 8 -sn=1
+add autowire 1600 2272 1648 2592 8 -sn=1
+add autowire 1504 496 1472 2672 8 -sn=1
+select figure at 1465 2675 8 -branches -sn=1
+move branchpt at 1472 2672 to 1504 2672 -keepConn -sn=1
+move wire at 1504 496 1504 2672 to 1504 496 1504 2528 -breakConn -sn=1
+add autowire 1648 2528 1504 2528 8 -sn=1
+undo
+add autowire 1504 2528 1648 2464 8 -sn=1
+select figure at 1560 2520 8 -branches -sn=1
+move wire at 1504 2528 1568 2528 to 1504 2464 1568 2464 -keepConn -sn=1
+add autowire 1648 2144 1504 2144 8 -sn=1
+add autowire 1648 1824 1504 1824 8 -sn=1
+add autowire 1648 1504 1504 1504 8 -sn=1
+add autowire 1648 1200 1504 1200 8 -sn=1
+add autowire 1648 880 1504 880 8 -sn=1
+add autowire 1648 560 1504 560 8 -sn=1
+move branchpt at 1504 496 to 1504 544 -keepConn -sn=1
+move branchpt at 1504 544 to 1504 560 -keepConn -sn=1
+undo
+add iomarker 1504 544 0 Unknown Unknown -sn=1
+select figure at 1495 468 8 -branches -sn=1
+select figure at 1495 468 8 -branches -all -sn=1
+select figure at 1455 639 8 -branches -sn=1
+select figure at 1518 508 8 -branches -sn=1
+select figure at 1518 508 8 -branches -all -sn=1
+set attr NA|XLXN_34(3:0)|Name value D(3:0) -sn=1
+select figure at 1505 531 8 -branches -sn=1
+delete selection -sn=1
+select figure at 1503 551 8 -branches -sn=1
+select figure at 1503 521 8 -branches -sn=1
+select figure at 1503 496 8 -branches -sn=1
+delete selection -sn=1
+select figure at 1523 569 8 -branches -sn=1
+select figure at 1545 554 8 -branches -sn=1
+delete selection -sn=1
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+add autowire 1504 544 1472 544 8 -sn=1
+select figure at 1200 549 8 -branches -sn=1
+select figure at 1501 545 8 -branches -sn=1
+move wire at 1472 544 1504 544 to 1472 560 1504 560 -keepConn -sn=1
+select figure at 1418 605 8 -branches -sn=1
+select figure at 1506 766 8 -branches -sn=1
+delete selection -sn=1
+BeginGroup
+add wire 1648 560 1616 560 -sn=1
+add iomarker 1616 560 0 Input Unknown -sn=1
+EndGroup
+select figure at 1512 559 8 -branches -sn=1
+select figure at 1512 559 8 -branches -all -sn=1
+set attr NA|XLXN_35(3:0)|Name value D(3:0) -sn=1
+move iomarker at 1616 560 to 1472 560 R180 -keepConn -sn=1
+select figure at 1413 670 8 -branches -sn=1
+add autowire 1648 880 1568 560 8 -sn=1
+add autowire 1648 1200 1568 880 8 -sn=1
+add autowire 1648 1504 1568 1200 8 -sn=1
+add autowire 1648 1824 1568 1504 8 -sn=1
+add autowire 1648 2144 1568 1824 8 -sn=1
+add autowire 1648 2464 1568 2144 8 -sn=1
+add autowire 1648 752 1616 432 8 -sn=1
+add autowire 1648 1072 1616 752 8 -sn=1
+add autowire 1648 1392 1616 1072 8 -sn=1
+add autowire 1648 1696 1616 1392 8 -sn=1
+add autowire 1648 2016 1616 1696 8 -sn=1
+add autowire 1648 2336 1616 2016 8 -sn=1
+add autowire 1648 2656 1616 2336 8 -sn=1
+add instance decode8 976 1856 R180 -sn=1
+select figure at 704 1992 8 -branches -sn=1
+delete selection -sn=1

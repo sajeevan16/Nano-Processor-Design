@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="NanoProcessor" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Adder_3bit D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Adder_3bit.sch</ClosedNode>
+         <ClosedNode>/Clock_Slow D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Clock_Slow.sch</ClosedNode>
+         <ClosedNode>/Decorder_3_to_8 D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Decorder_3_to_8.sch</ClosedNode>
+         <ClosedNode>/MUX_2Way_3Bit D:|UoM|CS2052 - Computer Architecture|NanoProcessor|MUX_2Way_3Bit.sch</ClosedNode>
+         <ClosedNode>/MUX_2Way_4Bit D:|UoM|CS2052 - Computer Architecture|NanoProcessor|MUX_2Way_4Bit.sch</ClosedNode>
+         <ClosedNode>/MUX_8Way_4Bit D:|UoM|CS2052 - Computer Architecture|NanoProcessor|MUX_8Way_4Bit.sch</ClosedNode>
+         <ClosedNode>/Mux_8_1 D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Mux_8_1.sch</ClosedNode>
+         <ClosedNode>/Mux_8_4 D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Mux_8_4.sch</ClosedNode>
+         <ClosedNode>/Mux_8_4 D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Mux_8_4.sch/XLXI_1 - Mux_8_1</ClosedNode>
+         <ClosedNode>/Mux_8_4 D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Mux_8_4.sch/XLXI_2 - Mux_8_1</ClosedNode>
+         <ClosedNode>/Mux_8_4 D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Mux_8_4.sch/XLXI_3 - Mux_8_1</ClosedNode>
+         <ClosedNode>/Mux_8_4 D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Mux_8_4.sch/XLXI_4 - Mux_8_1</ClosedNode>
+         <ClosedNode>/Mux_8_to_1 D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Mux_8_to_1.sch</ClosedNode>
+         <ClosedNode>/PC D:|UoM|CS2052 - Computer Architecture|NanoProcessor|PC.sch</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_1 - Reg_8_4bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_1 - Reg_8_4bit/XLXI_1 - Register_4Bit/XLXI_1 - Register_1Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_1 - Reg_8_4bit/XLXI_1 - Register_4Bit/XLXI_2 - Register_1Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_1 - Reg_8_4bit/XLXI_1 - Register_4Bit/XLXI_3 - Register_1Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_1 - Reg_8_4bit/XLXI_1 - Register_4Bit/XLXI_4 - Register_1Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_1 - Reg_8_4bit/XLXI_2 - Register_4Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_1 - Reg_8_4bit/XLXI_3 - Register_4Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_1 - Reg_8_4bit/XLXI_4 - Register_4Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_1 - Reg_8_4bit/XLXI_5 - Register_4Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_1 - Reg_8_4bit/XLXI_6 - Register_4Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_1 - Reg_8_4bit/XLXI_7 - Register_4Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_1 - Reg_8_4bit/XLXI_8 - Register_4Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_1 - Reg_8_4bit/XLXI_9 - Decorder_3_to_8</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_11 - PC</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_11 - PC/XLXI_1 - Register_1Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_11 - PC/XLXI_2 - Register_1Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_11 - PC/XLXI_3 - Register_1Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_13 - MUX_2Way_4Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_16 - Adder_3bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_17 - MUX_2Way_4Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_18 - MUX_2Way_3Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_19 - Adder_3bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_2 - MUX_8Way_4Bit/XLXI_1 - Mux_8_to_1</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_2 - MUX_8Way_4Bit/XLXI_2 - Mux_8_to_1</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_2 - MUX_8Way_4Bit/XLXI_3 - Mux_8_to_1</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_2 - MUX_8Way_4Bit/XLXI_4 - Mux_8_to_1</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_20 - Adder_3bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_22 - Mux_8_4</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_23 - Mux_8_4</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_29 - Clock_Slow</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_3 - MUX_8Way_4Bit/XLXI_1 - Mux_8_to_1</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_3 - MUX_8Way_4Bit/XLXI_2 - Mux_8_to_1</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_3 - MUX_8Way_4Bit/XLXI_3 - Mux_8_to_1</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_3 - MUX_8Way_4Bit/XLXI_4 - Mux_8_to_1</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_30 - Clock_Slow/XLXI_1 - FA</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_30 - Clock_Slow/XLXI_2 - FA</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_30 - Clock_Slow/XLXI_3 - FA</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_30 - Clock_Slow/XLXI_4 - FA</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_5 - RCA_4</ClosedNode>
+         <ClosedNode>/RCA_4 D:|UoM|CS2052 - Computer Architecture|NanoProcessor|RCA_4.sch</ClosedNode>
+         <ClosedNode>/Reg_8_4bit D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Reg_8_4bit.sch</ClosedNode>
+         <ClosedNode>/Register_4Bit D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Register_4Bit.sch</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Processor (D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.sch)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >2</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000155000000020000000000000000000000000200000064ffffffff000000810000000300000002000001550000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Processor (D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.sch)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e40000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000001b10000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Adder_3bit.sch</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Generate Programming File</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e40000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Generate Programming File</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="ManualCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>MUX_2to1.sch (D:/UoM/CS2052 - Computer Architecture/NanoProcessor/MUX_2to1.sch)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000134000000020000000000000000000000000000000064ffffffff000000810000000000000002000000c40000000100000000000000700000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>MUX_2to1.sch (D:/UoM/CS2052 - Computer Architecture/NanoProcessor/MUX_2to1.sch)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Adder_3bit D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Adder_3bit.sch</ClosedNode>
+         <ClosedNode>/Clock_Slow D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Clock_Slow.sch</ClosedNode>
+         <ClosedNode>/MUX_2Way_3Bit D:|UoM|CS2052 - Computer Architecture|NanoProcessor|MUX_2Way_3Bit.sch</ClosedNode>
+         <ClosedNode>/MUX_2Way_3Bit_MUX_2Way_3Bit_sch_tb - behavioral D:|UoM|CS2052 - Computer Architecture|NanoProcessor|MUX_2Way_3Bit.vhd</ClosedNode>
+         <ClosedNode>/MUX_2Way_4Bit D:|UoM|CS2052 - Computer Architecture|NanoProcessor|MUX_2Way_4Bit.sch</ClosedNode>
+         <ClosedNode>/MUX_2Way_4Bit_MUX_2Way_4Bit_sch_tb - behavioral D:|UoM|CS2052 - Computer Architecture|NanoProcessor|TB_MUX_2Way_4Bit.vhd</ClosedNode>
+         <ClosedNode>/MUX_8Way_4Bit D:|UoM|CS2052 - Computer Architecture|NanoProcessor|MUX_8Way_4Bit.sch</ClosedNode>
+         <ClosedNode>/Mux_8_4_Mux_8_4_sch_tb - behavioral D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Mux_8_4.vhd</ClosedNode>
+         <ClosedNode>/PC D:|UoM|CS2052 - Computer Architecture|NanoProcessor|PC.sch</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_1 - Reg_8_4bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_1 - Reg_8_4bit/XLXI_1 - Register_4Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_1 - Reg_8_4bit/XLXI_2 - Register_4Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_1 - Reg_8_4bit/XLXI_3 - Register_4Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_1 - Reg_8_4bit/XLXI_4 - Register_4Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_1 - Reg_8_4bit/XLXI_5 - Register_4Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_1 - Reg_8_4bit/XLXI_6 - Register_4Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_1 - Reg_8_4bit/XLXI_7 - Register_4Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_1 - Reg_8_4bit/XLXI_8 - Register_4Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_1 - Reg_8_4bit/XLXI_9 - Decorder_3_to_8</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_11 - PC</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_11 - PC/XLXI_1 - Register_1Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_11 - PC/XLXI_2 - Register_1Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_11 - PC/XLXI_3 - Register_1Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_17 - MUX_2Way_4Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_18 - MUX_2Way_3Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_2 - MUX_8Way_4Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_20 - Adder_3bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_22 - Mux_8_4</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_23 - Mux_8_4</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_3 - MUX_8Way_4Bit</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_30 - Clock_Slow</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_31 - Clock_Slow</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_32 - Clock_Slow</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_33 - Clock_Slow</ClosedNode>
+         <ClosedNode>/Processor D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Processor.sch/XLXI_5 - RCA_4</ClosedNode>
+         <ClosedNode>/RCA_4 D:|UoM|CS2052 - Computer Architecture|NanoProcessor|RCA_4.sch</ClosedNode>
+         <ClosedNode>/RCA_4_RCA_4_sch_tb - behavioral D:|UoM|CS2052 - Computer Architecture|NanoProcessor|TB_RCA_4.vhd</ClosedNode>
+         <ClosedNode>/ROM_ROM_sch_tb - behavioral D:|UoM|CS2052 - Computer Architecture|NanoProcessor|ROM_TB.vhd</ClosedNode>
+         <ClosedNode>/Reg_8_4bit D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Reg_8_4bit.sch</ClosedNode>
+         <ClosedNode>/Register_1Bit D:|UoM|CS2052 - Computer Architecture|NanoProcessor|Register_1Bit.sch</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Unassigned User Library Modules</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001e6000000020000000000000000000000000200000064ffffffff000000810000000300000002000001e60000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Unassigned User Library Modules</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e40000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e40000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000184000000010000000100000000000000000000000064ffffffff000000810000000000000001000001840000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e40000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

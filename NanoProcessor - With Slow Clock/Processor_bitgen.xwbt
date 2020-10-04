@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Jeevan\Downloads\NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001\NanoProcessor - 15.12.16 15.23 (With Slow Clock)\Processor.ncd
+OUTFILE=C:\Users\Jeevan\Downloads\NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001\NanoProcessor - 15.12.16 15.23 (With Slow Clock)\Processor.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=C:\Users\Jeevan\Downloads\NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001\NanoProcessor - 15.12.16 15.23 (With Slow Clock)
+LICENSE=WebPack
+USER_INFO=__0_0_0

@@ -1,0 +1,1126 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.29 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.31 secs
+ 
+--> Reading design: Processor.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Processor.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Processor"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-cp132
+
+---- Source Options
+Top Module Name                    : Processor
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/MUX_2to1_MUSER_Processor is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/MUX_2to1_MUSER_Processor/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/HA_MUSER_Processor is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/HA_MUSER_Processor/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/FA_MUSER_Processor is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/FA_MUSER_Processor/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/Clock_Slow_MUSER_Processor is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/Clock_Slow_MUSER_Processor/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/LUT_MUSER_Processor is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/LUT_MUSER_Processor/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/Decorder_3_8_MUSER_Processor is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/Decorder_3_8_MUSER_Processor/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/OR8_MXILINX_Processor is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/OR8_MXILINX_Processor/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/Mux_8_1_MUSER_Processor is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/Mux_8_1_MUSER_Processor/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/Mux_8_4_MUSER_Processor is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/Mux_8_4_MUSER_Processor/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/Adder_3bit_MUSER_Processor is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/Adder_3bit_MUSER_Processor/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/MUX_2Way_3Bit_MUSER_Processor is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/MUX_2Way_3Bit_MUSER_Processor/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/MUX_2Way_4Bit_MUSER_Processor is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/MUX_2Way_4Bit_MUSER_Processor/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/ROM_MUSER_Processor is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/ROM_MUSER_Processor/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/PC_MUSER_Processor is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/PC_MUSER_Processor/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/RCA_4_MUSER_Processor is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/RCA_4_MUSER_Processor/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/AND6_MXILINX_Processor is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/AND6_MXILINX_Processor/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/INV4_MXILINX_Processor is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/INV4_MXILINX_Processor/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/Ins_Decoder_MUSER_Processor is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/Ins_Decoder_MUSER_Processor/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/Register_4Bit_MUSER_Processor is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/Register_4Bit_MUSER_Processor/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/Reg_8_4bit_MUSER_Processor is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/Reg_8_4bit_MUSER_Processor/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/Processor is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/Processor/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:HDLParsers:3607 - Unit work/HA_MUSER_Adder_3bit is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Adder_3bit.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Adder_3bit.vhf".
+WARNING:HDLParsers:3607 - Unit work/HA_MUSER_Adder_3bit/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Adder_3bit.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Adder_3bit.vhf".
+WARNING:HDLParsers:3607 - Unit work/FA_MUSER_Adder_3bit is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Adder_3bit.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Adder_3bit.vhf".
+WARNING:HDLParsers:3607 - Unit work/FA_MUSER_Adder_3bit/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Adder_3bit.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Adder_3bit.vhf".
+WARNING:HDLParsers:3607 - Unit work/Adder_3bit is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Adder_3bit.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Adder_3bit.vhf".
+WARNING:HDLParsers:3607 - Unit work/Adder_3bit/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Adder_3bit.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Adder_3bit.vhf".
+WARNING:HDLParsers:3607 - Unit work/MUX_2to1_MUSER_Clock_Slow is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Clock_Slow.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Clock_Slow.vhf".
+WARNING:HDLParsers:3607 - Unit work/MUX_2to1_MUSER_Clock_Slow/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Clock_Slow.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Clock_Slow.vhf".
+WARNING:HDLParsers:3607 - Unit work/HA_MUSER_Clock_Slow is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Clock_Slow.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Clock_Slow.vhf".
+WARNING:HDLParsers:3607 - Unit work/HA_MUSER_Clock_Slow/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Clock_Slow.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Clock_Slow.vhf".
+WARNING:HDLParsers:3607 - Unit work/FA_MUSER_Clock_Slow is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Clock_Slow.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Clock_Slow.vhf".
+WARNING:HDLParsers:3607 - Unit work/FA_MUSER_Clock_Slow/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Clock_Slow.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Clock_Slow.vhf".
+WARNING:HDLParsers:3607 - Unit work/Clock_Slow is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Clock_Slow.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Clock_Slow.vhf".
+WARNING:HDLParsers:3607 - Unit work/Clock_Slow/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Clock_Slow.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Clock_Slow.vhf".
+WARNING:HDLParsers:3607 - Unit work/AND6_MXILINX_Ins_Decoder is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Ins_Decoder.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Ins_Decoder.vhf".
+WARNING:HDLParsers:3607 - Unit work/AND6_MXILINX_Ins_Decoder/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Ins_Decoder.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Ins_Decoder.vhf".
+WARNING:HDLParsers:3607 - Unit work/INV4_MXILINX_Ins_Decoder is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Ins_Decoder.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Ins_Decoder.vhf".
+WARNING:HDLParsers:3607 - Unit work/INV4_MXILINX_Ins_Decoder/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Ins_Decoder.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Ins_Decoder.vhf".
+WARNING:HDLParsers:3607 - Unit work/Ins_Decoder is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Ins_Decoder.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Ins_Decoder.vhf".
+WARNING:HDLParsers:3607 - Unit work/Ins_Decoder/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Ins_Decoder.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Ins_Decoder.vhf".
+WARNING:HDLParsers:3607 - Unit work/LUT is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/LUT.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/LUT.vhf".
+WARNING:HDLParsers:3607 - Unit work/LUT/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/LUT.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/LUT.vhf".
+WARNING:HDLParsers:3607 - Unit work/MUX_2to1_MUSER_MUX_2Way_3Bit is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/MUX_2Way_3Bit.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/MUX_2Way_3Bit.vhf".
+WARNING:HDLParsers:3607 - Unit work/MUX_2to1_MUSER_MUX_2Way_3Bit/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/MUX_2Way_3Bit.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/MUX_2Way_3Bit.vhf".
+WARNING:HDLParsers:3607 - Unit work/MUX_2Way_3Bit is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/MUX_2Way_3Bit.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/MUX_2Way_3Bit.vhf".
+WARNING:HDLParsers:3607 - Unit work/MUX_2Way_3Bit/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/MUX_2Way_3Bit.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/MUX_2Way_3Bit.vhf".
+WARNING:HDLParsers:3607 - Unit work/MUX_2to1_MUSER_MUX_2Way_4Bit is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/MUX_2Way_4Bit.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/MUX_2Way_4Bit.vhf".
+WARNING:HDLParsers:3607 - Unit work/MUX_2to1_MUSER_MUX_2Way_4Bit/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/MUX_2Way_4Bit.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/MUX_2Way_4Bit.vhf".
+WARNING:HDLParsers:3607 - Unit work/MUX_2Way_4Bit is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/MUX_2Way_4Bit.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/MUX_2Way_4Bit.vhf".
+WARNING:HDLParsers:3607 - Unit work/MUX_2Way_4Bit/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/MUX_2Way_4Bit.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/MUX_2Way_4Bit.vhf".
+WARNING:HDLParsers:3607 - Unit work/Decorder_3_8_MUSER_Mux_8_4 is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_4.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_4.vhf".
+WARNING:HDLParsers:3607 - Unit work/Decorder_3_8_MUSER_Mux_8_4/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_4.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_4.vhf".
+WARNING:HDLParsers:3607 - Unit work/OR8_MXILINX_Mux_8_4 is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_4.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_4.vhf".
+WARNING:HDLParsers:3607 - Unit work/OR8_MXILINX_Mux_8_4/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_4.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_4.vhf".
+WARNING:HDLParsers:3607 - Unit work/Mux_8_1_MUSER_Mux_8_4 is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_4.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_4.vhf".
+WARNING:HDLParsers:3607 - Unit work/Mux_8_1_MUSER_Mux_8_4/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_4.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_4.vhf".
+WARNING:HDLParsers:3607 - Unit work/Mux_8_4 is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_4.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_4.vhf".
+WARNING:HDLParsers:3607 - Unit work/Mux_8_4/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_4.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_4.vhf".
+WARNING:HDLParsers:3607 - Unit work/PC is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/PC.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/PC.vhf".
+WARNING:HDLParsers:3607 - Unit work/PC/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/PC.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/PC.vhf".
+WARNING:HDLParsers:3607 - Unit work/HA_MUSER_RCA_4 is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/RCA_4.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/RCA_4.vhf".
+WARNING:HDLParsers:3607 - Unit work/HA_MUSER_RCA_4/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/RCA_4.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/RCA_4.vhf".
+WARNING:HDLParsers:3607 - Unit work/FA_MUSER_RCA_4 is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/RCA_4.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/RCA_4.vhf".
+WARNING:HDLParsers:3607 - Unit work/FA_MUSER_RCA_4/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/RCA_4.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/RCA_4.vhf".
+WARNING:HDLParsers:3607 - Unit work/RCA_4 is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/RCA_4.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/RCA_4.vhf".
+WARNING:HDLParsers:3607 - Unit work/RCA_4/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/RCA_4.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/RCA_4.vhf".
+WARNING:HDLParsers:3607 - Unit work/Decorder_3_8_MUSER_Reg_8_4bit is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Reg_8_4bit.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Reg_8_4bit.vhf".
+WARNING:HDLParsers:3607 - Unit work/Decorder_3_8_MUSER_Reg_8_4bit/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Reg_8_4bit.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Reg_8_4bit.vhf".
+WARNING:HDLParsers:3607 - Unit work/MUX_2to1_MUSER_Reg_8_4bit is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Reg_8_4bit.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Reg_8_4bit.vhf".
+WARNING:HDLParsers:3607 - Unit work/MUX_2to1_MUSER_Reg_8_4bit/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Reg_8_4bit.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Reg_8_4bit.vhf".
+WARNING:HDLParsers:3607 - Unit work/Register_4Bit_MUSER_Reg_8_4bit is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Reg_8_4bit.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Reg_8_4bit.vhf".
+WARNING:HDLParsers:3607 - Unit work/Register_4Bit_MUSER_Reg_8_4bit/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Reg_8_4bit.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Reg_8_4bit.vhf".
+WARNING:HDLParsers:3607 - Unit work/Reg_8_4bit is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Reg_8_4bit.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Reg_8_4bit.vhf".
+WARNING:HDLParsers:3607 - Unit work/Reg_8_4bit/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Reg_8_4bit.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Reg_8_4bit.vhf".
+WARNING:HDLParsers:3607 - Unit work/ROM is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/ROM.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/ROM.vhf".
+WARNING:HDLParsers:3607 - Unit work/ROM/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/ROM.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/ROM.vhf".
+WARNING:HDLParsers:3607 - Unit work/HA_MUSER_FA is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/FA.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/FA.vhf".
+WARNING:HDLParsers:3607 - Unit work/HA_MUSER_FA/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/FA.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/FA.vhf".
+WARNING:HDLParsers:3607 - Unit work/FA is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/FA.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/FA.vhf".
+WARNING:HDLParsers:3607 - Unit work/FA/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/FA.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/FA.vhf".
+WARNING:HDLParsers:3607 - Unit work/Decorder_3_8_MUSER_Mux_8_1 is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_1.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_1.vhf".
+WARNING:HDLParsers:3607 - Unit work/Decorder_3_8_MUSER_Mux_8_1/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_1.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_1.vhf".
+WARNING:HDLParsers:3607 - Unit work/OR8_MXILINX_Mux_8_1 is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_1.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_1.vhf".
+WARNING:HDLParsers:3607 - Unit work/OR8_MXILINX_Mux_8_1/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_1.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_1.vhf".
+WARNING:HDLParsers:3607 - Unit work/Mux_8_1 is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_1.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_1.vhf".
+WARNING:HDLParsers:3607 - Unit work/Mux_8_1/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_1.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_1.vhf".
+WARNING:HDLParsers:3607 - Unit work/MUX_2to1_MUSER_Register_4Bit is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Register_4Bit.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Register_4Bit.vhf".
+WARNING:HDLParsers:3607 - Unit work/MUX_2to1_MUSER_Register_4Bit/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Register_4Bit.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Register_4Bit.vhf".
+WARNING:HDLParsers:3607 - Unit work/Register_4Bit is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Register_4Bit.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Register_4Bit.vhf".
+WARNING:HDLParsers:3607 - Unit work/Register_4Bit/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Register_4Bit.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Register_4Bit.vhf".
+WARNING:HDLParsers:3607 - Unit work/Decorder_3_8 is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Decorder_3_8.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Decorder_3_8.vhf".
+WARNING:HDLParsers:3607 - Unit work/Decorder_3_8/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Decorder_3_8.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Decorder_3_8.vhf".
+WARNING:HDLParsers:3607 - Unit work/HA is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/HA.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/HA.vhf".
+WARNING:HDLParsers:3607 - Unit work/HA/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/HA.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/HA.vhf".
+WARNING:HDLParsers:3607 - Unit work/MUX_2to1 is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/MUX_2to1.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/MUX_2to1.vhf".
+WARNING:HDLParsers:3607 - Unit work/MUX_2to1/BEHAVIORAL is now defined in a different file.  It was defined in "D:/UoM/CS2052 - Computer Architecture/NanoProcessor/MUX_2to1.vhf", and is now defined in "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/MUX_2to1.vhf".
+Compiling vhdl file "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf" in Library work.
+Entity <mux_2to1_muser_processor> compiled.
+Entity <mux_2to1_muser_processor> (Architecture <behavioral>) compiled.
+Entity <ha_muser_processor> compiled.
+Entity <ha_muser_processor> (Architecture <behavioral>) compiled.
+Entity <fa_muser_processor> compiled.
+Entity <fa_muser_processor> (Architecture <behavioral>) compiled.
+Entity <clock_slow_muser_processor> compiled.
+Entity <clock_slow_muser_processor> (Architecture <behavioral>) compiled.
+Entity <lut_muser_processor> compiled.
+Entity <lut_muser_processor> (Architecture <behavioral>) compiled.
+Entity <decorder_3_8_muser_processor> compiled.
+Entity <decorder_3_8_muser_processor> (Architecture <behavioral>) compiled.
+Entity <or8_mxilinx_processor> compiled.
+Entity <or8_mxilinx_processor> (Architecture <behavioral>) compiled.
+Entity <mux_8_1_muser_processor> compiled.
+Entity <mux_8_1_muser_processor> (Architecture <behavioral>) compiled.
+Entity <mux_8_4_muser_processor> compiled.
+Entity <mux_8_4_muser_processor> (Architecture <behavioral>) compiled.
+Entity <adder_3bit_muser_processor> compiled.
+Entity <adder_3bit_muser_processor> (Architecture <behavioral>) compiled.
+Entity <mux_2way_3bit_muser_processor> compiled.
+Entity <mux_2way_3bit_muser_processor> (Architecture <behavioral>) compiled.
+Entity <mux_2way_4bit_muser_processor> compiled.
+Entity <mux_2way_4bit_muser_processor> (Architecture <behavioral>) compiled.
+Entity <rom_muser_processor> compiled.
+Entity <rom_muser_processor> (Architecture <behavioral>) compiled.
+Entity <pc_muser_processor> compiled.
+Entity <pc_muser_processor> (Architecture <behavioral>) compiled.
+Entity <rca_4_muser_processor> compiled.
+Entity <rca_4_muser_processor> (Architecture <behavioral>) compiled.
+Entity <and6_mxilinx_processor> compiled.
+Entity <and6_mxilinx_processor> (Architecture <behavioral>) compiled.
+Entity <inv4_mxilinx_processor> compiled.
+Entity <inv4_mxilinx_processor> (Architecture <behavioral>) compiled.
+Entity <ins_decoder_muser_processor> compiled.
+Entity <ins_decoder_muser_processor> (Architecture <behavioral>) compiled.
+Entity <register_4bit_muser_processor> compiled.
+Entity <register_4bit_muser_processor> (Architecture <behavioral>) compiled.
+Entity <reg_8_4bit_muser_processor> compiled.
+Entity <reg_8_4bit_muser_processor> (Architecture <behavioral>) compiled.
+Entity <processor> compiled.
+Entity <processor> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Adder_3bit.vhf" in Library work.
+Entity <ha_muser_adder_3bit> compiled.
+Entity <ha_muser_adder_3bit> (Architecture <behavioral>) compiled.
+Entity <fa_muser_adder_3bit> compiled.
+Entity <fa_muser_adder_3bit> (Architecture <behavioral>) compiled.
+Entity <adder_3bit> compiled.
+Entity <adder_3bit> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Clock_Slow.vhf" in Library work.
+Entity <mux_2to1_muser_clock_slow> compiled.
+Entity <mux_2to1_muser_clock_slow> (Architecture <behavioral>) compiled.
+Entity <ha_muser_clock_slow> compiled.
+Entity <ha_muser_clock_slow> (Architecture <behavioral>) compiled.
+Entity <fa_muser_clock_slow> compiled.
+Entity <fa_muser_clock_slow> (Architecture <behavioral>) compiled.
+Entity <clock_slow> compiled.
+Entity <clock_slow> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Ins_Decoder.vhf" in Library work.
+Entity <and6_mxilinx_ins_decoder> compiled.
+Entity <and6_mxilinx_ins_decoder> (Architecture <behavioral>) compiled.
+Entity <inv4_mxilinx_ins_decoder> compiled.
+Entity <inv4_mxilinx_ins_decoder> (Architecture <behavioral>) compiled.
+Entity <ins_decoder> compiled.
+Entity <ins_decoder> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/LUT.vhf" in Library work.
+Entity <lut> compiled.
+Entity <lut> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/MUX_2Way_3Bit.vhf" in Library work.
+Architecture behavioral of Entity mux_2to1_muser_mux_2way_3bit is up to date.
+Architecture behavioral of Entity mux_2way_3bit is up to date.
+Compiling vhdl file "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/MUX_2Way_4Bit.vhf" in Library work.
+Entity <mux_2to1_muser_mux_2way_4bit> compiled.
+Entity <mux_2to1_muser_mux_2way_4bit> (Architecture <behavioral>) compiled.
+Entity <mux_2way_4bit> compiled.
+Entity <mux_2way_4bit> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_4.vhf" in Library work.
+Entity <decorder_3_8_muser_mux_8_4> compiled.
+Entity <decorder_3_8_muser_mux_8_4> (Architecture <behavioral>) compiled.
+Entity <or8_mxilinx_mux_8_4> compiled.
+Entity <or8_mxilinx_mux_8_4> (Architecture <behavioral>) compiled.
+Entity <mux_8_1_muser_mux_8_4> compiled.
+Entity <mux_8_1_muser_mux_8_4> (Architecture <behavioral>) compiled.
+Entity <mux_8_4> compiled.
+Entity <mux_8_4> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/PC.vhf" in Library work.
+Entity <pc> compiled.
+Entity <pc> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/RCA_4.vhf" in Library work.
+Architecture behavioral of Entity ha_muser_rca_4 is up to date.
+Architecture behavioral of Entity fa_muser_rca_4 is up to date.
+Architecture behavioral of Entity rca_4 is up to date.
+Compiling vhdl file "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Reg_8_4bit.vhf" in Library work.
+Entity <decorder_3_8_muser_reg_8_4bit> compiled.
+Entity <decorder_3_8_muser_reg_8_4bit> (Architecture <behavioral>) compiled.
+Entity <mux_2to1_muser_reg_8_4bit> compiled.
+Entity <mux_2to1_muser_reg_8_4bit> (Architecture <behavioral>) compiled.
+Entity <register_4bit_muser_reg_8_4bit> compiled.
+Entity <register_4bit_muser_reg_8_4bit> (Architecture <behavioral>) compiled.
+Entity <reg_8_4bit> compiled.
+Entity <reg_8_4bit> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/ROM.vhf" in Library work.
+Entity <rom> compiled.
+Entity <rom> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/FA.vhf" in Library work.
+Entity <ha_muser_fa> compiled.
+Entity <ha_muser_fa> (Architecture <behavioral>) compiled.
+Entity <fa> compiled.
+Entity <fa> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_1.vhf" in Library work.
+Entity <decorder_3_8_muser_mux_8_1> compiled.
+Entity <decorder_3_8_muser_mux_8_1> (Architecture <behavioral>) compiled.
+Entity <or8_mxilinx_mux_8_1> compiled.
+Entity <or8_mxilinx_mux_8_1> (Architecture <behavioral>) compiled.
+Entity <mux_8_1> compiled.
+Entity <mux_8_1> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Register_4Bit.vhf" in Library work.
+Architecture behavioral of Entity mux_2to1_muser_register_4bit is up to date.
+Architecture behavioral of Entity register_4bit is up to date.
+Compiling vhdl file "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Decorder_3_8.vhf" in Library work.
+Entity <decorder_3_8> compiled.
+Entity <decorder_3_8> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/HA.vhf" in Library work.
+Entity <ha> compiled.
+Entity <ha> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/MUX_2to1.vhf" in Library work.
+Architecture behavioral of Entity mux_2to1 is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Processor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Reg_8_4bit_MUSER_Processor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <RCA_4_MUSER_Processor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Ins_Decoder_MUSER_Processor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <PC_MUSER_Processor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ROM_MUSER_Processor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MUX_2Way_4Bit_MUSER_Processor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MUX_2Way_3Bit_MUSER_Processor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Adder_3bit_MUSER_Processor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux_8_4_MUSER_Processor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <LUT_MUSER_Processor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Clock_Slow_MUSER_Processor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Register_4Bit_MUSER_Processor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Decorder_3_8_MUSER_Processor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <FA_MUSER_Processor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <AND6_MXILINX_Processor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <INV4_MXILINX_Processor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MUX_2to1_MUSER_Processor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux_8_1_MUSER_Processor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <HA_MUSER_Processor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <OR8_MXILINX_Processor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Decorder_3_8_MUSER_Processor> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Processor> in library <work> (Architecture <behavioral>).
+Entity <Processor> analyzed. Unit <Processor> generated.
+
+Analyzing Entity <Reg_8_4bit_MUSER_Processor> in library <work> (Architecture <behavioral>).
+Entity <Reg_8_4bit_MUSER_Processor> analyzed. Unit <Reg_8_4bit_MUSER_Processor> generated.
+
+Analyzing Entity <Register_4Bit_MUSER_Processor> in library <work> (Architecture <behavioral>).
+    Set user-defined property "INIT =  0" for instance <XLXI_9> in unit <Register_4Bit_MUSER_Processor>.
+    Set user-defined property "INIT =  0" for instance <XLXI_10> in unit <Register_4Bit_MUSER_Processor>.
+    Set user-defined property "INIT =  0" for instance <XLXI_11> in unit <Register_4Bit_MUSER_Processor>.
+    Set user-defined property "INIT =  0" for instance <XLXI_12> in unit <Register_4Bit_MUSER_Processor>.
+Entity <Register_4Bit_MUSER_Processor> analyzed. Unit <Register_4Bit_MUSER_Processor> generated.
+
+Analyzing Entity <MUX_2to1_MUSER_Processor> in library <work> (Architecture <behavioral>).
+Entity <MUX_2to1_MUSER_Processor> analyzed. Unit <MUX_2to1_MUSER_Processor> generated.
+
+Analyzing Entity <Decorder_3_8_MUSER_Processor> in library <work> (Architecture <behavioral>).
+Entity <Decorder_3_8_MUSER_Processor> analyzed. Unit <Decorder_3_8_MUSER_Processor> generated.
+
+Analyzing Entity <RCA_4_MUSER_Processor> in library <work> (Architecture <behavioral>).
+Entity <RCA_4_MUSER_Processor> analyzed. Unit <RCA_4_MUSER_Processor> generated.
+
+Analyzing Entity <FA_MUSER_Processor> in library <work> (Architecture <behavioral>).
+Entity <FA_MUSER_Processor> analyzed. Unit <FA_MUSER_Processor> generated.
+
+Analyzing Entity <HA_MUSER_Processor> in library <work> (Architecture <behavioral>).
+Entity <HA_MUSER_Processor> analyzed. Unit <HA_MUSER_Processor> generated.
+
+Analyzing Entity <Ins_Decoder_MUSER_Processor> in library <work> (Architecture <behavioral>).
+    Set user-defined property "HU_SET =  XLXI_4_8" for instance <XLXI_4> in unit <Ins_Decoder_MUSER_Processor>.
+    Set user-defined property "HU_SET =  XLXI_6_7" for instance <XLXI_6> in unit <Ins_Decoder_MUSER_Processor>.
+    Set user-defined property "INIT =  0" for instance <XLXI_22> in unit <Ins_Decoder_MUSER_Processor>.
+    Set user-defined property "INIT =  0" for instance <XLXI_23> in unit <Ins_Decoder_MUSER_Processor>.
+    Set user-defined property "INIT =  0" for instance <XLXI_34> in unit <Ins_Decoder_MUSER_Processor>.
+    Set user-defined property "INIT =  0" for instance <XLXI_35> in unit <Ins_Decoder_MUSER_Processor>.
+    Set user-defined property "INIT =  0" for instance <XLXI_36> in unit <Ins_Decoder_MUSER_Processor>.
+    Set user-defined property "INIT =  0" for instance <XLXI_37> in unit <Ins_Decoder_MUSER_Processor>.
+    Set user-defined property "INIT =  0" for instance <XLXI_38> in unit <Ins_Decoder_MUSER_Processor>.
+    Set user-defined property "INIT =  0" for instance <XLXI_39> in unit <Ins_Decoder_MUSER_Processor>.
+    Set user-defined property "INIT =  0" for instance <XLXI_44> in unit <Ins_Decoder_MUSER_Processor>.
+    Set user-defined property "INIT =  0" for instance <XLXI_45> in unit <Ins_Decoder_MUSER_Processor>.
+    Set user-defined property "INIT =  0" for instance <XLXI_46> in unit <Ins_Decoder_MUSER_Processor>.
+    Set user-defined property "INIT =  0" for instance <XLXI_47> in unit <Ins_Decoder_MUSER_Processor>.
+Entity <Ins_Decoder_MUSER_Processor> analyzed. Unit <Ins_Decoder_MUSER_Processor> generated.
+
+Analyzing Entity <AND6_MXILINX_Processor> in library <work> (Architecture <behavioral>).
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_93> in unit <AND6_MXILINX_Processor>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_94> in unit <AND6_MXILINX_Processor>.
+Entity <AND6_MXILINX_Processor> analyzed. Unit <AND6_MXILINX_Processor> generated.
+
+Analyzing Entity <INV4_MXILINX_Processor> in library <work> (Architecture <behavioral>).
+Entity <INV4_MXILINX_Processor> analyzed. Unit <INV4_MXILINX_Processor> generated.
+
+Analyzing Entity <PC_MUSER_Processor> in library <work> (Architecture <behavioral>).
+    Set user-defined property "INIT =  0" for instance <XLXI_7> in unit <PC_MUSER_Processor>.
+    Set user-defined property "INIT =  0" for instance <XLXI_8> in unit <PC_MUSER_Processor>.
+    Set user-defined property "INIT =  0" for instance <XLXI_9> in unit <PC_MUSER_Processor>.
+Entity <PC_MUSER_Processor> analyzed. Unit <PC_MUSER_Processor> generated.
+
+Analyzing Entity <ROM_MUSER_Processor> in library <work> (Architecture <behavioral>).
+    Set user-defined property "INIT =  0013" for instance <XLXI_1> in unit <ROM_MUSER_Processor>.
+    Set user-defined property "INIT =  0033" for instance <XLXI_2> in unit <ROM_MUSER_Processor>.
+    Set user-defined property "INIT =  0012" for instance <XLXI_3> in unit <ROM_MUSER_Processor>.
+    Set user-defined property "INIT =  0002" for instance <XLXI_4> in unit <ROM_MUSER_Processor>.
+    Set user-defined property "INIT =  0004" for instance <XLXI_5> in unit <ROM_MUSER_Processor>.
+    Set user-defined property "INIT =  000C" for instance <XLXI_6> in unit <ROM_MUSER_Processor>.
+    Set user-defined property "INIT =  0033" for instance <XLXI_13> in unit <ROM_MUSER_Processor>.
+    Set user-defined property "INIT =  0030" for instance <XLXI_14> in unit <ROM_MUSER_Processor>.
+    Set user-defined property "INIT =  0000" for instance <XLXI_15> in unit <ROM_MUSER_Processor>.
+    Set user-defined property "INIT =  001B" for instance <XLXI_16> in unit <ROM_MUSER_Processor>.
+    Set user-defined property "INIT =  001D" for instance <XLXI_17> in unit <ROM_MUSER_Processor>.
+    Set user-defined property "INIT =  0000" for instance <XLXI_18> in unit <ROM_MUSER_Processor>.
+Entity <ROM_MUSER_Processor> analyzed. Unit <ROM_MUSER_Processor> generated.
+
+Analyzing Entity <MUX_2Way_4Bit_MUSER_Processor> in library <work> (Architecture <behavioral>).
+Entity <MUX_2Way_4Bit_MUSER_Processor> analyzed. Unit <MUX_2Way_4Bit_MUSER_Processor> generated.
+
+Analyzing Entity <MUX_2Way_3Bit_MUSER_Processor> in library <work> (Architecture <behavioral>).
+Entity <MUX_2Way_3Bit_MUSER_Processor> analyzed. Unit <MUX_2Way_3Bit_MUSER_Processor> generated.
+
+Analyzing Entity <Adder_3bit_MUSER_Processor> in library <work> (Architecture <behavioral>).
+Entity <Adder_3bit_MUSER_Processor> analyzed. Unit <Adder_3bit_MUSER_Processor> generated.
+
+Analyzing Entity <Mux_8_4_MUSER_Processor> in library <work> (Architecture <behavioral>).
+Entity <Mux_8_4_MUSER_Processor> analyzed. Unit <Mux_8_4_MUSER_Processor> generated.
+
+Analyzing Entity <Mux_8_1_MUSER_Processor> in library <work> (Architecture <behavioral>).
+    Set user-defined property "HU_SET =  XLXI_13_6" for instance <XLXI_13> in unit <Mux_8_1_MUSER_Processor>.
+Entity <Mux_8_1_MUSER_Processor> analyzed. Unit <Mux_8_1_MUSER_Processor> generated.
+
+Analyzing Entity <OR8_MXILINX_Processor> in library <work> (Architecture <behavioral>).
+    Set user-defined property "RLOC =  X0Y1" for instance <I_36_91> in unit <OR8_MXILINX_Processor>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_116> in unit <OR8_MXILINX_Processor>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_117> in unit <OR8_MXILINX_Processor>.
+Entity <OR8_MXILINX_Processor> analyzed. Unit <OR8_MXILINX_Processor> generated.
+
+Analyzing Entity <LUT_MUSER_Processor> in library <work> (Architecture <behavioral>).
+    Set user-defined property "INIT =  8283" for instance <XLXI_2> in unit <LUT_MUSER_Processor>.
+    Set user-defined property "INIT =  E28E" for instance <XLXI_3> in unit <LUT_MUSER_Processor>.
+    Set user-defined property "INIT =  BABA" for instance <XLXI_4> in unit <LUT_MUSER_Processor>.
+    Set user-defined property "INIT =  9292" for instance <XLXI_5> in unit <LUT_MUSER_Processor>.
+    Set user-defined property "INIT =  4004" for instance <XLXI_6> in unit <LUT_MUSER_Processor>.
+    Set user-defined property "INIT =  0C60" for instance <XLXI_7> in unit <LUT_MUSER_Processor>.
+    Set user-defined property "INIT =  9012" for instance <XLXI_8> in unit <LUT_MUSER_Processor>.
+Entity <LUT_MUSER_Processor> analyzed. Unit <LUT_MUSER_Processor> generated.
+
+Analyzing Entity <Clock_Slow_MUSER_Processor> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf" line 298: Unconnected output port 'C_out' of component 'FA_MUSER_Processor'.
+    Set user-defined property "INIT =  0" for instance <XLXI_20> in unit <Clock_Slow_MUSER_Processor>.
+    Set user-defined property "INIT =  0" for instance <XLXI_21> in unit <Clock_Slow_MUSER_Processor>.
+    Set user-defined property "INIT =  0" for instance <XLXI_22> in unit <Clock_Slow_MUSER_Processor>.
+    Set user-defined property "INIT =  0" for instance <XLXI_23> in unit <Clock_Slow_MUSER_Processor>.
+    Set user-defined property "INIT =  0" for instance <XLXI_30> in unit <Clock_Slow_MUSER_Processor>.
+Entity <Clock_Slow_MUSER_Processor> analyzed. Unit <Clock_Slow_MUSER_Processor> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <PC_MUSER_Processor>.
+    Related source file is "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+Unit <PC_MUSER_Processor> synthesized.
+
+
+Synthesizing Unit <ROM_MUSER_Processor>.
+    Related source file is "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+Unit <ROM_MUSER_Processor> synthesized.
+
+
+Synthesizing Unit <LUT_MUSER_Processor>.
+    Related source file is "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+Unit <LUT_MUSER_Processor> synthesized.
+
+
+Synthesizing Unit <Decorder_3_8_MUSER_Processor>.
+    Related source file is "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+Unit <Decorder_3_8_MUSER_Processor> synthesized.
+
+
+Synthesizing Unit <MUX_2to1_MUSER_Processor>.
+    Related source file is "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+Unit <MUX_2to1_MUSER_Processor> synthesized.
+
+
+Synthesizing Unit <HA_MUSER_Processor>.
+    Related source file is "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+Unit <HA_MUSER_Processor> synthesized.
+
+
+Synthesizing Unit <AND6_MXILINX_Processor>.
+    Related source file is "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:Xst:653 - Signal <dummy> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <AND6_MXILINX_Processor> synthesized.
+
+
+Synthesizing Unit <INV4_MXILINX_Processor>.
+    Related source file is "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+Unit <INV4_MXILINX_Processor> synthesized.
+
+
+Synthesizing Unit <OR8_MXILINX_Processor>.
+    Related source file is "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+WARNING:Xst:653 - Signal <dummy> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <OR8_MXILINX_Processor> synthesized.
+
+
+Synthesizing Unit <Ins_Decoder_MUSER_Processor>.
+    Related source file is "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+Unit <Ins_Decoder_MUSER_Processor> synthesized.
+
+
+Synthesizing Unit <MUX_2Way_4Bit_MUSER_Processor>.
+    Related source file is "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+Unit <MUX_2Way_4Bit_MUSER_Processor> synthesized.
+
+
+Synthesizing Unit <MUX_2Way_3Bit_MUSER_Processor>.
+    Related source file is "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+Unit <MUX_2Way_3Bit_MUSER_Processor> synthesized.
+
+
+Synthesizing Unit <Register_4Bit_MUSER_Processor>.
+    Related source file is "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+Unit <Register_4Bit_MUSER_Processor> synthesized.
+
+
+Synthesizing Unit <FA_MUSER_Processor>.
+    Related source file is "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+Unit <FA_MUSER_Processor> synthesized.
+
+
+Synthesizing Unit <Mux_8_1_MUSER_Processor>.
+    Related source file is "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+Unit <Mux_8_1_MUSER_Processor> synthesized.
+
+
+Synthesizing Unit <Reg_8_4bit_MUSER_Processor>.
+    Related source file is "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+Unit <Reg_8_4bit_MUSER_Processor> synthesized.
+
+
+Synthesizing Unit <RCA_4_MUSER_Processor>.
+    Related source file is "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+Unit <RCA_4_MUSER_Processor> synthesized.
+
+
+Synthesizing Unit <Adder_3bit_MUSER_Processor>.
+    Related source file is "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+Unit <Adder_3bit_MUSER_Processor> synthesized.
+
+
+Synthesizing Unit <Mux_8_4_MUSER_Processor>.
+    Related source file is "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+Unit <Mux_8_4_MUSER_Processor> synthesized.
+
+
+Synthesizing Unit <Clock_Slow_MUSER_Processor>.
+    Related source file is "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+Unit <Clock_Slow_MUSER_Processor> synthesized.
+
+
+Synthesizing Unit <Processor>.
+    Related source file is "C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf".
+Unit <Processor> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 72
+ Flip-Flops                                            : 72
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Processor> ...
+
+Optimizing unit <Decorder_3_8_MUSER_Processor> ...
+
+Optimizing unit <AND6_MXILINX_Processor> ...
+
+Optimizing unit <INV4_MXILINX_Processor> ...
+
+Optimizing unit <OR8_MXILINX_Processor> ...
+
+Optimizing unit <Ins_Decoder_MUSER_Processor> ...
+
+Optimizing unit <Register_4Bit_MUSER_Processor> ...
+
+Optimizing unit <Mux_8_1_MUSER_Processor> ...
+
+Optimizing unit <Reg_8_4bit_MUSER_Processor> ...
+
+Optimizing unit <RCA_4_MUSER_Processor> ...
+
+Optimizing unit <Clock_Slow_MUSER_Processor> ...
+
+Mapping all equations...
+WARNING:Xst:2036 - Inserting OBUF on port <A> driven by black box <ROM16X1>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <B> driven by black box <ROM16X1>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <C> driven by black box <ROM16X1>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <D> driven by black box <ROM16X1>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <E> driven by black box <ROM16X1>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <F> driven by black box <ROM16X1>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <G> driven by black box <ROM16X1>. Possible simulation mismatch.
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Processor, actual ratio is 4.
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_22/XLXI_4/XLXI_13/S0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_22/XLXI_4/XLXI_13/S1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_22/XLXI_4/XLXI_13/O_DUMMY> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_23/XLXI_4/XLXI_13/S0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_23/XLXI_4/XLXI_13/S1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_23/XLXI_4/XLXI_13/O_DUMMY> may hinder timing optimization.
+   You may achieve better results by removing this property
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 72
+ Flip-Flops                                            : 72
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Processor.ngr
+Top Level Output File Name         : Processor
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 19
+
+Cell Usage :
+# BELS                             : 563
+#      AND2                        : 210
+#      AND3                        : 73
+#      AND4                        : 7
+#      GND                         : 10
+#      INV                         : 105
+#      OR2                         : 78
+#      OR3                         : 1
+#      OR4                         : 16
+#      VCC                         : 1
+#      XOR2                        : 62
+# FlipFlops/Latches                : 72
+#      FD                          : 37
+#      FDC                         : 35
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 18
+#      IBUF                        : 1
+#      OBUF                        : 17
+# Others                           : 45
+#      FMAP                        : 26
+#      ROM16X1                     : 19
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-4 
+
+ Number of Slices:                       39  out of    960     4%  
+ Number of Slice Flip Flops:             72  out of   1920     3%  
+ Number of 4 input LUTs:                124  out of   1920     6%  
+    Number used as ROMs:                 19
+ Number of IOs:                          19
+ Number of bonded IOBs:                  19  out of     83    22%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+SCLK1                              | BUFG                   | 47    |
+CLK                                | BUFGP                  | 5     |
+XLXN_109                           | NONE(XLXI_37/XLXI_30)  | 5     |
+XLXN_108                           | NONE(XLXI_36/XLXI_30)  | 5     |
+XLXN_107                           | NONE(XLXI_35/XLXI_30)  | 5     |
+XLXN_106                           | NONE(XLXI_34/XLXI_30)  | 5     |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+CLR                                | IBUF                   | 35    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 45.700ns (Maximum Frequency: 21.882MHz)
+   Minimum input arrival time before clock: 0.728ns
+   Maximum output required time after clock: 23.278ns
+   Maximum combinational path delay: 3.692ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'SCLK1'
+  Clock period: 45.700ns (frequency: 21.882MHz)
+  Total number of paths / destination ports: 9756 / 35
+-------------------------------------------------------------------------
+Delay:               22.850ns (Levels of Logic = 19)
+  Source:            XLXI_10/XLXI_37 (FF)
+  Destination:       XLXI_1/XLXI_2/XLXI_12 (FF)
+  Source Clock:      SCLK1 rising
+  Destination Clock: SCLK1 falling
+
+  Data Path: XLXI_10/XLXI_37 to XLXI_1/XLXI_2/XLXI_12
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              20   0.591   1.102  XLXI_10/XLXI_37 (RbE<2>)
+     INV:I->O              4   0.704   0.587  XLXI_23/XLXI_4/XLXI_22/XLXI_39 (XLXI_23/XLXI_4/XLXI_22/XLXN_31)
+     AND3:I0->O            1   0.704   0.420  XLXI_23/XLXI_4/XLXI_22/XLXI_25 (XLXI_23/XLXI_4/XLXN_138)
+     AND2:I0->O            1   0.704   0.420  XLXI_23/XLXI_4/XLXI_21 (XLXI_23/XLXI_4/XLXN_74)
+     begin scope: 'XLXI_23/XLXI_4/XLXI_13'
+     OR4:I3->O             1   0.704   0.420  I_36_95 (S1)
+     OR2:I1->O             1   0.704   0.420  I_36_94 (O_DUMMY)
+     end scope: 'XLXI_23/XLXI_4/XLXI_13'
+     XOR2:I0->O            2   0.704   0.447  XLXI_5/XLXI_9 (XLXI_5/XLXN_21)
+     XOR2:I0->O            2   0.704   0.447  XLXI_5/XLXI_1/XLXI_1/XLXI_1 (XLXI_5/XLXI_1/XLXN_2)
+     AND2:I1->O            1   0.704   0.420  XLXI_5/XLXI_1/XLXI_2/XLXI_2 (XLXI_5/XLXI_1/XLXN_4)
+     OR2:I0->O             2   0.704   0.447  XLXI_5/XLXI_1/XLXI_3 (XLXI_5/XLXN_1)
+     AND2:I0->O            1   0.704   0.420  XLXI_5/XLXI_2/XLXI_2/XLXI_2 (XLXI_5/XLXI_2/XLXN_4)
+     OR2:I0->O             2   0.704   0.447  XLXI_5/XLXI_2/XLXI_3 (XLXI_5/XLXN_2)
+     AND2:I0->O            1   0.704   0.420  XLXI_5/XLXI_3/XLXI_2/XLXI_2 (XLXI_5/XLXI_3/XLXN_4)
+     OR2:I0->O             2   0.704   0.447  XLXI_5/XLXI_3/XLXI_3 (XLXI_5/XLXN_3)
+     XOR2:I0->O            2   0.704   0.447  XLXI_5/XLXI_4/XLXI_2/XLXI_1 (Result<3>)
+     AND2:I1->O            1   0.704   0.420  XLXI_17/XLXI_4/XLXI_1 (XLXI_17/XLXI_4/XLXN_7)
+     OR2:I1->O             7   0.704   0.708  XLXI_17/XLXI_4/XLXI_5 (XLXN_36<3>)
+     AND2:I1->O            1   0.704   0.420  XLXI_1/XLXI_8/XLXI_16/XLXI_2 (XLXI_1/XLXI_8/XLXI_16/XLXN_8)
+     OR2:I0->O             1   0.704   0.420  XLXI_1/XLXI_8/XLXI_16/XLXI_5 (XLXI_1/XLXI_8/D3)
+     FDC:D                     0.308          XLXI_1/XLXI_8/XLXI_12
+    ----------------------------------------
+    Total                     22.850ns (13.571ns logic, 9.279ns route)
+                                       (59.4% logic, 40.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 16.204ns (frequency: 61.713MHz)
+  Total number of paths / destination ports: 66 / 5
+-------------------------------------------------------------------------
+Delay:               16.204ns (Levels of Logic = 13)
+  Source:            XLXI_38/XLXI_20 (FF)
+  Destination:       XLXI_38/XLXI_30 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: XLXI_38/XLXI_20 to XLXI_38/XLXI_30
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.591   0.447  XLXI_38/XLXI_20 (XLXI_38/XLXN_69)
+     XOR2:I1->O            2   0.704   0.447  XLXI_38/XLXI_1/XLXI_1/XLXI_1 (XLXI_38/XLXI_1/XLXN_2)
+     AND2:I1->O            1   0.704   0.420  XLXI_38/XLXI_1/XLXI_2/XLXI_2 (XLXI_38/XLXI_1/XLXN_4)
+     OR2:I0->O             2   0.704   0.447  XLXI_38/XLXI_1/XLXI_3 (XLXI_38/XLXN_1)
+     AND2:I0->O            1   0.704   0.420  XLXI_38/XLXI_2/XLXI_2/XLXI_2 (XLXI_38/XLXI_2/XLXN_4)
+     OR2:I0->O             2   0.704   0.447  XLXI_38/XLXI_2/XLXI_3 (XLXI_38/XLXN_2)
+     AND2:I0->O            1   0.704   0.420  XLXI_38/XLXI_3/XLXI_2/XLXI_2 (XLXI_38/XLXI_3/XLXN_4)
+     OR2:I0->O             2   0.704   0.447  XLXI_38/XLXI_3/XLXI_3 (XLXI_38/XLXN_3)
+     XOR2:I0->O            2   0.704   0.447  XLXI_38/XLXI_4/XLXI_2/XLXI_1 (XLXI_38/XLXN_77)
+     INV:I->O              1   0.704   0.420  XLXI_38/XLXI_19 (XLXI_38/XLXN_68)
+     AND4:I0->O            3   0.704   0.531  XLXI_38/XLXI_13 (XLXI_38/ZERO)
+     XOR2:I0->O            1   0.704   0.420  XLXI_38/XLXI_33 (XLXI_38/XLXN_97)
+     AND2:I1->O            1   0.704   0.420  XLXI_38/XLXI_29/XLXI_2 (XLXI_38/XLXI_29/XLXN_8)
+     OR2:I0->O             1   0.704   0.420  XLXI_38/XLXI_29/XLXI_5 (XLXI_38/XLXN_93)
+     FD:D                      0.308          XLXI_38/XLXI_30
+    ----------------------------------------
+    Total                     16.204ns (10.051ns logic, 6.153ns route)
+                                       (62.0% logic, 38.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXN_109'
+  Clock period: 16.204ns (frequency: 61.713MHz)
+  Total number of paths / destination ports: 66 / 5
+-------------------------------------------------------------------------
+Delay:               16.204ns (Levels of Logic = 13)
+  Source:            XLXI_37/XLXI_20 (FF)
+  Destination:       XLXI_37/XLXI_30 (FF)
+  Source Clock:      XLXN_109 rising
+  Destination Clock: XLXN_109 rising
+
+  Data Path: XLXI_37/XLXI_20 to XLXI_37/XLXI_30
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.591   0.447  XLXI_37/XLXI_20 (XLXI_37/XLXN_69)
+     XOR2:I1->O            2   0.704   0.447  XLXI_37/XLXI_1/XLXI_1/XLXI_1 (XLXI_37/XLXI_1/XLXN_2)
+     AND2:I1->O            1   0.704   0.420  XLXI_37/XLXI_1/XLXI_2/XLXI_2 (XLXI_37/XLXI_1/XLXN_4)
+     OR2:I0->O             2   0.704   0.447  XLXI_37/XLXI_1/XLXI_3 (XLXI_37/XLXN_1)
+     AND2:I0->O            1   0.704   0.420  XLXI_37/XLXI_2/XLXI_2/XLXI_2 (XLXI_37/XLXI_2/XLXN_4)
+     OR2:I0->O             2   0.704   0.447  XLXI_37/XLXI_2/XLXI_3 (XLXI_37/XLXN_2)
+     AND2:I0->O            1   0.704   0.420  XLXI_37/XLXI_3/XLXI_2/XLXI_2 (XLXI_37/XLXI_3/XLXN_4)
+     OR2:I0->O             2   0.704   0.447  XLXI_37/XLXI_3/XLXI_3 (XLXI_37/XLXN_3)
+     XOR2:I0->O            2   0.704   0.447  XLXI_37/XLXI_4/XLXI_2/XLXI_1 (XLXI_37/XLXN_77)
+     INV:I->O              1   0.704   0.420  XLXI_37/XLXI_19 (XLXI_37/XLXN_68)
+     AND4:I0->O            3   0.704   0.531  XLXI_37/XLXI_13 (XLXI_37/ZERO)
+     XOR2:I0->O            1   0.704   0.420  XLXI_37/XLXI_33 (XLXI_37/XLXN_97)
+     AND2:I1->O            1   0.704   0.420  XLXI_37/XLXI_29/XLXI_2 (XLXI_37/XLXI_29/XLXN_8)
+     OR2:I0->O             1   0.704   0.420  XLXI_37/XLXI_29/XLXI_5 (XLXI_37/XLXN_93)
+     FD:D                      0.308          XLXI_37/XLXI_30
+    ----------------------------------------
+    Total                     16.204ns (10.051ns logic, 6.153ns route)
+                                       (62.0% logic, 38.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXN_108'
+  Clock period: 16.204ns (frequency: 61.713MHz)
+  Total number of paths / destination ports: 66 / 5
+-------------------------------------------------------------------------
+Delay:               16.204ns (Levels of Logic = 13)
+  Source:            XLXI_36/XLXI_20 (FF)
+  Destination:       XLXI_36/XLXI_30 (FF)
+  Source Clock:      XLXN_108 rising
+  Destination Clock: XLXN_108 rising
+
+  Data Path: XLXI_36/XLXI_20 to XLXI_36/XLXI_30
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.591   0.447  XLXI_36/XLXI_20 (XLXI_36/XLXN_69)
+     XOR2:I1->O            2   0.704   0.447  XLXI_36/XLXI_1/XLXI_1/XLXI_1 (XLXI_36/XLXI_1/XLXN_2)
+     AND2:I1->O            1   0.704   0.420  XLXI_36/XLXI_1/XLXI_2/XLXI_2 (XLXI_36/XLXI_1/XLXN_4)
+     OR2:I0->O             2   0.704   0.447  XLXI_36/XLXI_1/XLXI_3 (XLXI_36/XLXN_1)
+     AND2:I0->O            1   0.704   0.420  XLXI_36/XLXI_2/XLXI_2/XLXI_2 (XLXI_36/XLXI_2/XLXN_4)
+     OR2:I0->O             2   0.704   0.447  XLXI_36/XLXI_2/XLXI_3 (XLXI_36/XLXN_2)
+     AND2:I0->O            1   0.704   0.420  XLXI_36/XLXI_3/XLXI_2/XLXI_2 (XLXI_36/XLXI_3/XLXN_4)
+     OR2:I0->O             2   0.704   0.447  XLXI_36/XLXI_3/XLXI_3 (XLXI_36/XLXN_3)
+     XOR2:I0->O            2   0.704   0.447  XLXI_36/XLXI_4/XLXI_2/XLXI_1 (XLXI_36/XLXN_77)
+     INV:I->O              1   0.704   0.420  XLXI_36/XLXI_19 (XLXI_36/XLXN_68)
+     AND4:I0->O            3   0.704   0.531  XLXI_36/XLXI_13 (XLXI_36/ZERO)
+     XOR2:I0->O            1   0.704   0.420  XLXI_36/XLXI_33 (XLXI_36/XLXN_97)
+     AND2:I1->O            1   0.704   0.420  XLXI_36/XLXI_29/XLXI_2 (XLXI_36/XLXI_29/XLXN_8)
+     OR2:I0->O             1   0.704   0.420  XLXI_36/XLXI_29/XLXI_5 (XLXI_36/XLXN_93)
+     FD:D                      0.308          XLXI_36/XLXI_30
+    ----------------------------------------
+    Total                     16.204ns (10.051ns logic, 6.153ns route)
+                                       (62.0% logic, 38.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXN_107'
+  Clock period: 16.204ns (frequency: 61.713MHz)
+  Total number of paths / destination ports: 66 / 5
+-------------------------------------------------------------------------
+Delay:               16.204ns (Levels of Logic = 13)
+  Source:            XLXI_35/XLXI_20 (FF)
+  Destination:       XLXI_35/XLXI_30 (FF)
+  Source Clock:      XLXN_107 rising
+  Destination Clock: XLXN_107 rising
+
+  Data Path: XLXI_35/XLXI_20 to XLXI_35/XLXI_30
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.591   0.447  XLXI_35/XLXI_20 (XLXI_35/XLXN_69)
+     XOR2:I1->O            2   0.704   0.447  XLXI_35/XLXI_1/XLXI_1/XLXI_1 (XLXI_35/XLXI_1/XLXN_2)
+     AND2:I1->O            1   0.704   0.420  XLXI_35/XLXI_1/XLXI_2/XLXI_2 (XLXI_35/XLXI_1/XLXN_4)
+     OR2:I0->O             2   0.704   0.447  XLXI_35/XLXI_1/XLXI_3 (XLXI_35/XLXN_1)
+     AND2:I0->O            1   0.704   0.420  XLXI_35/XLXI_2/XLXI_2/XLXI_2 (XLXI_35/XLXI_2/XLXN_4)
+     OR2:I0->O             2   0.704   0.447  XLXI_35/XLXI_2/XLXI_3 (XLXI_35/XLXN_2)
+     AND2:I0->O            1   0.704   0.420  XLXI_35/XLXI_3/XLXI_2/XLXI_2 (XLXI_35/XLXI_3/XLXN_4)
+     OR2:I0->O             2   0.704   0.447  XLXI_35/XLXI_3/XLXI_3 (XLXI_35/XLXN_3)
+     XOR2:I0->O            2   0.704   0.447  XLXI_35/XLXI_4/XLXI_2/XLXI_1 (XLXI_35/XLXN_77)
+     INV:I->O              1   0.704   0.420  XLXI_35/XLXI_19 (XLXI_35/XLXN_68)
+     AND4:I0->O            3   0.704   0.531  XLXI_35/XLXI_13 (XLXI_35/ZERO)
+     XOR2:I0->O            1   0.704   0.420  XLXI_35/XLXI_33 (XLXI_35/XLXN_97)
+     AND2:I1->O            1   0.704   0.420  XLXI_35/XLXI_29/XLXI_2 (XLXI_35/XLXI_29/XLXN_8)
+     OR2:I0->O             1   0.704   0.420  XLXI_35/XLXI_29/XLXI_5 (XLXI_35/XLXN_93)
+     FD:D                      0.308          XLXI_35/XLXI_30
+    ----------------------------------------
+    Total                     16.204ns (10.051ns logic, 6.153ns route)
+                                       (62.0% logic, 38.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXN_106'
+  Clock period: 16.204ns (frequency: 61.713MHz)
+  Total number of paths / destination ports: 66 / 5
+-------------------------------------------------------------------------
+Delay:               16.204ns (Levels of Logic = 13)
+  Source:            XLXI_34/XLXI_20 (FF)
+  Destination:       XLXI_34/XLXI_30 (FF)
+  Source Clock:      XLXN_106 rising
+  Destination Clock: XLXN_106 rising
+
+  Data Path: XLXI_34/XLXI_20 to XLXI_34/XLXI_30
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.591   0.447  XLXI_34/XLXI_20 (XLXI_34/XLXN_69)
+     XOR2:I1->O            2   0.704   0.447  XLXI_34/XLXI_1/XLXI_1/XLXI_1 (XLXI_34/XLXI_1/XLXN_2)
+     AND2:I1->O            1   0.704   0.420  XLXI_34/XLXI_1/XLXI_2/XLXI_2 (XLXI_34/XLXI_1/XLXN_4)
+     OR2:I0->O             2   0.704   0.447  XLXI_34/XLXI_1/XLXI_3 (XLXI_34/XLXN_1)
+     AND2:I0->O            1   0.704   0.420  XLXI_34/XLXI_2/XLXI_2/XLXI_2 (XLXI_34/XLXI_2/XLXN_4)
+     OR2:I0->O             2   0.704   0.447  XLXI_34/XLXI_2/XLXI_3 (XLXI_34/XLXN_2)
+     AND2:I0->O            1   0.704   0.420  XLXI_34/XLXI_3/XLXI_2/XLXI_2 (XLXI_34/XLXI_3/XLXN_4)
+     OR2:I0->O             2   0.704   0.447  XLXI_34/XLXI_3/XLXI_3 (XLXI_34/XLXN_3)
+     XOR2:I0->O            2   0.704   0.447  XLXI_34/XLXI_4/XLXI_2/XLXI_1 (XLXI_34/XLXN_77)
+     INV:I->O              1   0.704   0.420  XLXI_34/XLXI_19 (XLXI_34/XLXN_68)
+     AND4:I0->O            3   0.704   0.531  XLXI_34/XLXI_13 (XLXI_34/ZERO)
+     XOR2:I0->O            1   0.704   0.420  XLXI_34/XLXI_33 (XLXI_34/XLXN_97)
+     AND2:I1->O            1   0.704   0.420  XLXI_34/XLXI_29/XLXI_2 (XLXI_34/XLXI_29/XLXN_8)
+     OR2:I0->O             1   0.704   0.420  XLXI_34/XLXI_29/XLXI_5 (XLXI_34/XLXN_93)
+     FD:D                      0.308          XLXI_34/XLXI_30
+    ----------------------------------------
+    Total                     16.204ns (10.051ns logic, 6.153ns route)
+                                       (62.0% logic, 38.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'SCLK1'
+  Total number of paths / destination ports: 12 / 12
+-------------------------------------------------------------------------
+Offset:              0.728ns (Levels of Logic = 0)
+  Source:            XLXI_12/XLXI_1:O (PAD)
+  Destination:       XLXI_10/XLXI_47 (FF)
+  Destination Clock: SCLK1 rising
+
+  Data Path: XLXI_12/XLXI_1:O to XLXI_10/XLXI_47
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    ROM16X1:O              1   0.000   0.420  XLXI_12/XLXI_1 (OpCode<0>)
+     FD:D                      0.308          XLXI_10/XLXI_47
+    ----------------------------------------
+    Total                      0.728ns (0.308ns logic, 0.420ns route)
+                                       (42.3% logic, 57.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'SCLK1'
+  Total number of paths / destination ports: 1662 / 70
+-------------------------------------------------------------------------
+Offset:              23.278ns (Levels of Logic = 18)
+  Source:            XLXI_10/XLXI_37 (FF)
+  Destination:       Zero (PAD)
+  Source Clock:      SCLK1 rising
+
+  Data Path: XLXI_10/XLXI_37 to Zero
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              20   0.591   1.102  XLXI_10/XLXI_37 (RbE<2>)
+     INV:I->O              4   0.704   0.587  XLXI_23/XLXI_4/XLXI_22/XLXI_39 (XLXI_23/XLXI_4/XLXI_22/XLXN_31)
+     AND3:I0->O            1   0.704   0.420  XLXI_23/XLXI_4/XLXI_22/XLXI_25 (XLXI_23/XLXI_4/XLXN_138)
+     AND2:I0->O            1   0.704   0.420  XLXI_23/XLXI_4/XLXI_21 (XLXI_23/XLXI_4/XLXN_74)
+     begin scope: 'XLXI_23/XLXI_4/XLXI_13'
+     OR4:I3->O             1   0.704   0.420  I_36_95 (S1)
+     OR2:I1->O             1   0.704   0.420  I_36_94 (O_DUMMY)
+     end scope: 'XLXI_23/XLXI_4/XLXI_13'
+     XOR2:I0->O            2   0.704   0.447  XLXI_5/XLXI_9 (XLXI_5/XLXN_21)
+     XOR2:I0->O            2   0.704   0.447  XLXI_5/XLXI_1/XLXI_1/XLXI_1 (XLXI_5/XLXI_1/XLXN_2)
+     AND2:I1->O            1   0.704   0.420  XLXI_5/XLXI_1/XLXI_2/XLXI_2 (XLXI_5/XLXI_1/XLXN_4)
+     OR2:I0->O             2   0.704   0.447  XLXI_5/XLXI_1/XLXI_3 (XLXI_5/XLXN_1)
+     AND2:I0->O            1   0.704   0.420  XLXI_5/XLXI_2/XLXI_2/XLXI_2 (XLXI_5/XLXI_2/XLXN_4)
+     OR2:I0->O             2   0.704   0.447  XLXI_5/XLXI_2/XLXI_3 (XLXI_5/XLXN_2)
+     AND2:I0->O            1   0.704   0.420  XLXI_5/XLXI_3/XLXI_2/XLXI_2 (XLXI_5/XLXI_3/XLXN_4)
+     OR2:I0->O             2   0.704   0.447  XLXI_5/XLXI_3/XLXI_3 (XLXI_5/XLXN_3)
+     XOR2:I0->O            2   0.704   0.447  XLXI_5/XLXI_4/XLXI_2/XLXI_1 (Result<3>)
+     INV:I->O              1   0.704   0.420  XLXI_5/XLXI_19 (XLXI_5/XLXN_68)
+     AND4:I0->O            1   0.704   0.420  XLXI_5/XLXI_14 (Zero_OBUF)
+     OBUF:I->O                 3.272          Zero_OBUF (Zero)
+    ----------------------------------------
+    Total                     23.278ns (15.127ns logic, 8.151ns route)
+                                       (65.0% logic, 35.0% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 7 / 7
+-------------------------------------------------------------------------
+Delay:               3.692ns (Levels of Logic = 1)
+  Source:            XLXI_24/XLXI_8:O (PAD)
+  Destination:       A (PAD)
+
+  Data Path: XLXI_24/XLXI_8:O to A
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    ROM16X1:O              1   0.000   0.420  XLXI_24/XLXI_8 (A_OBUF)
+     OBUF:I->O                 3.272          A_OBUF (A)
+    ----------------------------------------
+    Total                      3.692ns (3.272ns logic, 0.420ns route)
+                                       (88.6% logic, 11.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 17.00 secs
+Total CPU time to Xst completion: 16.73 secs
+ 
+--> 
+
+Total memory usage is 357252 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  134 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

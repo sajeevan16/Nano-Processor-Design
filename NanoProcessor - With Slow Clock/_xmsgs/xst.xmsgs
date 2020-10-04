@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX_2to1_MUSER_Processor</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX_2to1_MUSER_Processor/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/HA_MUSER_Processor</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/HA_MUSER_Processor/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FA_MUSER_Processor</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FA_MUSER_Processor/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Clock_Slow_MUSER_Processor</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Clock_Slow_MUSER_Processor/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/LUT_MUSER_Processor</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/LUT_MUSER_Processor/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Decorder_3_8_MUSER_Processor</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Decorder_3_8_MUSER_Processor/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/OR8_MXILINX_Processor</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/OR8_MXILINX_Processor/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Mux_8_1_MUSER_Processor</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Mux_8_1_MUSER_Processor/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Mux_8_4_MUSER_Processor</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Mux_8_4_MUSER_Processor/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Adder_3bit_MUSER_Processor</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Adder_3bit_MUSER_Processor/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX_2Way_3Bit_MUSER_Processor</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX_2Way_3Bit_MUSER_Processor/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX_2Way_4Bit_MUSER_Processor</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX_2Way_4Bit_MUSER_Processor/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_MUSER_Processor</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM_MUSER_Processor/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/PC_MUSER_Processor</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/PC_MUSER_Processor/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/RCA_4_MUSER_Processor</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/RCA_4_MUSER_Processor/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/AND6_MXILINX_Processor</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/AND6_MXILINX_Processor/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/INV4_MXILINX_Processor</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/INV4_MXILINX_Processor/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Ins_Decoder_MUSER_Processor</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Ins_Decoder_MUSER_Processor/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Register_4Bit_MUSER_Processor</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Register_4Bit_MUSER_Processor/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Reg_8_4bit_MUSER_Processor</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Reg_8_4bit_MUSER_Processor/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Processor</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Processor/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Processor.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/HA_MUSER_Adder_3bit</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Adder_3bit.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Adder_3bit.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/HA_MUSER_Adder_3bit/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Adder_3bit.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Adder_3bit.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FA_MUSER_Adder_3bit</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Adder_3bit.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Adder_3bit.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FA_MUSER_Adder_3bit/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Adder_3bit.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Adder_3bit.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Adder_3bit</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Adder_3bit.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Adder_3bit.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Adder_3bit/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Adder_3bit.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Adder_3bit.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX_2to1_MUSER_Clock_Slow</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Clock_Slow.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Clock_Slow.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX_2to1_MUSER_Clock_Slow/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Clock_Slow.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Clock_Slow.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/HA_MUSER_Clock_Slow</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Clock_Slow.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Clock_Slow.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/HA_MUSER_Clock_Slow/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Clock_Slow.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Clock_Slow.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FA_MUSER_Clock_Slow</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Clock_Slow.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Clock_Slow.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FA_MUSER_Clock_Slow/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Clock_Slow.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Clock_Slow.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Clock_Slow</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Clock_Slow.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Clock_Slow.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Clock_Slow/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Clock_Slow.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Clock_Slow.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/AND6_MXILINX_Ins_Decoder</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Ins_Decoder.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Ins_Decoder.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/AND6_MXILINX_Ins_Decoder/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Ins_Decoder.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Ins_Decoder.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/INV4_MXILINX_Ins_Decoder</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Ins_Decoder.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Ins_Decoder.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/INV4_MXILINX_Ins_Decoder/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Ins_Decoder.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Ins_Decoder.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Ins_Decoder</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Ins_Decoder.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Ins_Decoder.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Ins_Decoder/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Ins_Decoder.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Ins_Decoder.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/LUT</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/LUT.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/LUT.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/LUT/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/LUT.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/LUT.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX_2to1_MUSER_MUX_2Way_3Bit</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/MUX_2Way_3Bit.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/MUX_2Way_3Bit.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX_2to1_MUSER_MUX_2Way_3Bit/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/MUX_2Way_3Bit.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/MUX_2Way_3Bit.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX_2Way_3Bit</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/MUX_2Way_3Bit.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/MUX_2Way_3Bit.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX_2Way_3Bit/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/MUX_2Way_3Bit.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/MUX_2Way_3Bit.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX_2to1_MUSER_MUX_2Way_4Bit</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/MUX_2Way_4Bit.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/MUX_2Way_4Bit.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX_2to1_MUSER_MUX_2Way_4Bit/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/MUX_2Way_4Bit.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/MUX_2Way_4Bit.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX_2Way_4Bit</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/MUX_2Way_4Bit.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/MUX_2Way_4Bit.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX_2Way_4Bit/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/MUX_2Way_4Bit.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/MUX_2Way_4Bit.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Decorder_3_8_MUSER_Mux_8_4</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_4.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_4.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Decorder_3_8_MUSER_Mux_8_4/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_4.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_4.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/OR8_MXILINX_Mux_8_4</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_4.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_4.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/OR8_MXILINX_Mux_8_4/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_4.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_4.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Mux_8_1_MUSER_Mux_8_4</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_4.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_4.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Mux_8_1_MUSER_Mux_8_4/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_4.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_4.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Mux_8_4</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_4.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_4.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Mux_8_4/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_4.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_4.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/PC</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/PC.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/PC.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/PC/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/PC.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/PC.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/HA_MUSER_RCA_4</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/RCA_4.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/RCA_4.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/HA_MUSER_RCA_4/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/RCA_4.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/RCA_4.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FA_MUSER_RCA_4</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/RCA_4.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/RCA_4.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FA_MUSER_RCA_4/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/RCA_4.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/RCA_4.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/RCA_4</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/RCA_4.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/RCA_4.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/RCA_4/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/RCA_4.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/RCA_4.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Decorder_3_8_MUSER_Reg_8_4bit</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Reg_8_4bit.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Reg_8_4bit.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Decorder_3_8_MUSER_Reg_8_4bit/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Reg_8_4bit.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Reg_8_4bit.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX_2to1_MUSER_Reg_8_4bit</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Reg_8_4bit.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Reg_8_4bit.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX_2to1_MUSER_Reg_8_4bit/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Reg_8_4bit.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Reg_8_4bit.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Register_4Bit_MUSER_Reg_8_4bit</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Reg_8_4bit.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Reg_8_4bit.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Register_4Bit_MUSER_Reg_8_4bit/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Reg_8_4bit.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Reg_8_4bit.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Reg_8_4bit</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Reg_8_4bit.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Reg_8_4bit.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Reg_8_4bit/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Reg_8_4bit.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Reg_8_4bit.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/ROM.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/ROM.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ROM/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/ROM.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/ROM.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/HA_MUSER_FA</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/FA.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/FA.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/HA_MUSER_FA/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/FA.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/FA.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FA</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/FA.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/FA.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FA/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/FA.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/FA.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Decorder_3_8_MUSER_Mux_8_1</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_1.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_1.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Decorder_3_8_MUSER_Mux_8_1/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_1.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_1.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/OR8_MXILINX_Mux_8_1</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_1.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_1.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/OR8_MXILINX_Mux_8_1/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_1.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_1.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Mux_8_1</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_1.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_1.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Mux_8_1/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Mux_8_1.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Mux_8_1.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX_2to1_MUSER_Register_4Bit</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Register_4Bit.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Register_4Bit.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX_2to1_MUSER_Register_4Bit/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Register_4Bit.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Register_4Bit.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Register_4Bit</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Register_4Bit.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Register_4Bit.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Register_4Bit/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Register_4Bit.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Register_4Bit.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Decorder_3_8</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Decorder_3_8.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Decorder_3_8.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Decorder_3_8/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/Decorder_3_8.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Decorder_3_8.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/HA</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/HA.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/HA.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/HA/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/HA.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/HA.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX_2to1</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/MUX_2to1.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/MUX_2to1.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX_2to1/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/UoM/CS2052 - Computer Architecture/NanoProcessor/MUX_2to1.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/MUX_2to1.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Jeevan/Downloads/NanoProcessor - 15.12.16 15.23 (With Slow Clock)-20171120T063116Z-001/NanoProcessor - 15.12.16 15.23 (With Slow Clock)/Processor.vhf</arg>&quot; line <arg fmt="%d" index="2">298</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">C_out</arg>&apos; of component &apos;<arg fmt="%s" index="4">FA_MUSER_Processor</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">dummy</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">dummy</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">A</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ROM16X1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">B</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ROM16X1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">C</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ROM16X1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">D</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ROM16X1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">E</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ROM16X1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">F</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ROM16X1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">G</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ROM16X1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_22/XLXI_4/XLXI_13/S0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_22/XLXI_4/XLXI_13/S1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_22/XLXI_4/XLXI_13/O_DUMMY</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_23/XLXI_4/XLXI_13/S0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_23/XLXI_4/XLXI_13/S1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_23/XLXI_4/XLXI_13/O_DUMMY</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+
